@@ -1,21 +1,20 @@
 # Javascript 4 Beginners
 
-# Table of Conents
-- Getting Started
-- Basic Programing
-  - Variables
-  - Functions
-  - If/Else
-  - Lopps
-- Exercises
-- Challenges
-- Resources
+- [Getting Started](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#getting-started)
+- [Basic Programing](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#basic-programming)
+  - [Variables](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#variables)
+  - [Functions](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#functions)
+  - [Conditionals](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#conditionals)
+  - [Loops](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#loops)
+- [Exercises]()
+- [Challenges]()
+- [Resources]()
 
 # Getting Started
 
-Install VS Code
+Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
-Install Google Chrome
+Install [Google Chrome](https://www.google.com/chrome/)
 
 # Basic Programming
 
@@ -274,6 +273,8 @@ OUTPUT
 "first else if block"
 ```
 
+---
+
 ## Loops
 
 **Loops** offer a quick and easy way to do something repeatedly.
@@ -297,3 +298,19 @@ The statements for loops provided in JavaScript are:
 - while statement
 - for...in statement
 - for...of statement
+
+---
+
+# Excercises
+
+---
+
+# Challenges
+
+---
+
+# Resources
+
+## Learning 
+
+## References
