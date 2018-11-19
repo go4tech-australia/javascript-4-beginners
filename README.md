@@ -6,9 +6,11 @@
   - [Functions](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#functions)
   - [Conditionals](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#conditionals)
   - [Loops](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#loops)
-- [Exercises]()
-- [Challenges]()
-- [Resources]()
+- [Exercises](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#excercises)
+- [Challenges](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#challenges)
+- [Resources](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#resources)
+
+---
 
 # Getting Started
 
@@ -16,7 +18,11 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 Install [Google Chrome](https://www.google.com/chrome/)
 
+---
+
 # Basic Programming
+
+
 
 ## Variables
 **Variables** are named values and can store any type of JavaScript value.
