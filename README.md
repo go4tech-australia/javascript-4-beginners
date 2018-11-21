@@ -1,18 +1,22 @@
+<a title="Ramaksoud2000 via Chris Williams [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:JavaScript-logo.png"><img width="128" alt="JavaScript-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/128px-JavaScript-logo.png"></a>
+
 # Javascript 4 Beginners
 
-- [Getting Started](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#getting-started)
-- [Basic Programing](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#basic-programming)
-  - [Variables](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#variables)
-  - [Functions](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#functions)
-  - [Conditionals](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#conditionals)
-  - [Loops](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#loops)
-- [Exercises](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#excercises)
-- [Challenges](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#challenges)
-- [Resources](https://github.com/go4tech-australia/javascript-4-beginners/tree/develop#resources)
+- [Getting Started](#getting-started)
+- [Basic Programing](Lessons/)
+  - [Variables](Lessons/1.%20Variables.md)
+  - [Functions](Lessons/2.%20Functions.md)
+  - [Conditionals](Lessons/3.%20Conditionals.md)
+  - [Loops](Lessons/4.%20Loops.md)
+- [Exercises](Exercises/)
+- [Challenges](Challenges/)
+- [Resources](Resurces/)
 
 ---
 
-# Getting Started
+## Getting Started
+
+To follow along and to write some code please:
 
 Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
@@ -20,11 +24,30 @@ Install [Google Chrome](https://www.google.com/chrome/)
 
 ---
 
-# Basic Programming
+## Basic Programming
 
 TODO: What is basic programming
 
+  - [Variables](Lessons/1.%20Variables.md)
+  - [Functions](Lessons/2.%20Functions.md)
+  - [Conditionals](Lessons/3.%20Conditionals.md)
+  - [Loops](Lessons/4.%20Loops.md)
 
-# Exercise
-#Challenges
-Explain chunk library
+---
+
+## Exercise
+
+Practice what you learned in the lessons with these [exercises](Exercises/).
+
+1. [Variables](Lessons/1.%20Variables.md)
+2. [Functions](Lessons/2.%20Functions.md)
+3. [Conditionals](Lessons/3.%20Conditionals.md)
+4. [Loops](Lessons/4.%20Loops.md)
+
+---
+
+## Challenges
+
+Test your knowledge of programing in javascript with these [challenges](Challenges/). And prove to yourself that you are a JS master 😊
+
+---
