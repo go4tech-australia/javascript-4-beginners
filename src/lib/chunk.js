@@ -1,4 +1,6 @@
 var CHUNK = {
+	snakeColour: undefined,
+	snake: [{ top: 0, left: 0 }],
 	canvasWidth: 400,
 	canvasHeight: 400,
 	pixelSize: 20,
@@ -42,11 +44,15 @@ var CHUNK = {
 		this.started = false;
 		clearInterval(CHUNK.processID);
 	},
-	draw: function(objects) {
+	render: function(objects) {
 		if (this.started) {
 			CHUNK.clear();
 			CHUNK.drawObjects(objects);
 		}
+	},
+	draw: function(snakeColour, apple) {
+		CHUNK.snakeColour = snakeColour;
+		CHUNK.drawSnake(CHUNK.snake);
 	},
 	clear: function() {
 		CHUNK.canvas().clearRect(0, 0, CHUNK.canvasWidth, CHUNK.canvasHeight);
@@ -101,5 +107,43 @@ var CHUNK = {
 		context.font = '20pt Calibri';
 		context.fillStyle = 'yellow';
 		context.fillText(message, 75, 100);
+	},
+	drawSnake: function(snakeToDraw) {
+		var drawableSnake = { color: CHUNK.snakeColour, pixels: snakeToDraw };
+		var drawableObjects = [drawableSnake];
+		CHUNK.render(drawableObjects);
+	},
+	segmentFurtherForwardThan: function(index, snake) {
+		if (snake[index - 1] === undefined) {
+			return snake[index];
+		} else {
+			return snake[index - 1];
+		}
+	},
+	moveSnake: function(snake) {
+		return snake.map(function(oldSegment, segmentIndex) {
+			var newSegment = CHUNK.moveSegment(oldSegment);
+			newSegment.direction = CHUNK.segmentFurtherForwardThan(segmentIndex, snake).direction;
+			return newSegment;
+		});
+	},
+	move: function(direction) {
+		CHUNK.snake[0].direction = direction;
+		CHUNK.snake = CHUNK.moveSnake(CHUNK.snake);
+		CHUNK.drawSnake(CHUNK.snake);
+	},
+	moveSegment: function(segment) {
+		switch (segment.direction) {
+			case 'down':
+				return { top: segment.top + 1, left: segment.left };
+			case 'up':
+				return { top: segment.top - 1, left: segment.left };
+			case 'right':
+				return { top: segment.top, left: segment.left + 1 };
+			case 'left':
+				return { top: segment.top, left: segment.left - 1 };
+			default:
+				return { top: segment.top + 1, left: segment.left };
+		}
 	}
 };
