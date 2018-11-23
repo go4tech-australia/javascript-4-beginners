@@ -1,4 +1,6 @@
-var SNAKE = {
+var GAME = {
+	isSnake: false,
+	isApple: false,
 	canvasWidth: 400,
 	canvasHeight: 400,
 	pixelSize: 20,
@@ -9,7 +11,11 @@ var SNAKE = {
 		38: 'up'
 	},
 	started: true,
-	attrs: {},
+	attrs: {
+		boundaries: {
+			pixels: []
+		}
+	},
 	gameHeight: function() {
 		return this.attrs.gameHeight || (this.attrs.gameHeight = this.canvasHeight / this.pixelSize);
 	},
@@ -17,39 +23,48 @@ var SNAKE = {
 		return this.attrs.gameWidth || (this.attrs.gameWidth = this.canvasWidth / this.pixelSize);
 	},
 	canvas: function() {
-		if (SNAKE.context) {
-			return SNAKE.context;
+		if (GAME.context) {
+			return GAME.context;
 		}
-		var canvas = document.getElementById('chunk-game');
-		SNAKE.context = canvas.getContext('2d');
-		return SNAKE.context;
+		var canvas = document.getElementById('snake-game');
+		GAME.context = canvas.getContext('2d');
+		return GAME.context;
 	},
-	executeNTimesPerSecond: function(tickCallback, gameSpeed) {
-		tickCallback();
-		SNAKE.processID = setInterval(function() {
-			tickCallback();
+	executeNTimesPerSecond: function(game, gameSpeed) {
+		GAME.move(game);
+		GAME.processID = setInterval(function() {
+			GAME.move(game);
 		}, 1000 / gameSpeed);
 	},
 	onArrowKey: function(callback) {
 		document.addEventListener('keydown', function(e) {
-			if (SNAKE.KEY_MAPPING[e.which]) {
+			if (GAME.KEY_MAPPING[e.which]) {
 				e.preventDefault();
-				callback(SNAKE.KEY_MAPPING[e.which]);
+				callback(GAME.KEY_MAPPING[e.which]);
 			}
 		});
 	},
 	endGame: function() {
 		this.started = false;
-		clearInterval(SNAKE.processID);
+		clearInterval(GAME.processID);
 	},
-	draw: function(objects) {
+	render: function(objects) {
 		if (this.started) {
-			SNAKE.clear();
-			SNAKE.drawObjects(objects);
+			GAME.clear();
+			GAME.drawObjects(objects);
 		}
 	},
+	draw: function(snake, apple) {
+		if (apple) {
+			GAME.isSnake = true;
+			GAME.isApple = true;
+		} else if (snake) {
+			GAME.isSnake = true;
+		}
+		GAME.drawStuff(snake, apple);
+	},
 	clear: function() {
-		SNAKE.canvas().clearRect(0, 0, SNAKE.canvasWidth, SNAKE.canvasHeight);
+		GAME.canvas().clearRect(0, 0, GAME.canvasWidth, GAME.canvasHeight);
 	},
 	drawObjects: function(objects) {
 		var ui = this;
@@ -60,46 +75,144 @@ var SNAKE = {
 		});
 	},
 	drawPixel: function(color, pixel) {
-		SNAKE.canvas().fillStyle = color;
-		var translatedPixel = SNAKE.translatePixel(pixel);
-		SNAKE.context.fillRect(translatedPixel.left, translatedPixel.top, SNAKE.pixelSize, SNAKE.pixelSize);
+		GAME.canvas().fillStyle = color;
+		var translatedPixel = GAME.translatePixel(pixel);
+		GAME.context.fillRect(translatedPixel.left, translatedPixel.top, GAME.pixelSize, GAME.pixelSize);
 	},
 	translatePixel: function(pixel) {
-		return { left: pixel.left * SNAKE.pixelSize, top: pixel.top * SNAKE.pixelSize };
+		return { left: pixel.left * GAME.pixelSize, top: pixel.top * GAME.pixelSize };
 	},
 	gameBoundaries: function() {
-		if (this.attrs.boundaries) {
+		if (this.attrs.boundaries.pixels.length) {
 			return this.attrs.boundaries;
 		}
-		this.attrs.boundaries = [];
-		for (var top = -1; top <= SNAKE.gameHeight(); top++) {
-			this.attrs.boundaries.push({ top: top, left: -1 });
-			this.attrs.boundaries.push({ top: top, left: this.gameWidth() + 1 });
+		this.attrs.boundaries.pixels = [];
+		for (var top = -1; top <= GAME.gameHeight(); top++) {
+			this.attrs.boundaries.pixels.push({ top: top, left: -1 });
+			this.attrs.boundaries.pixels.push({ top: top, left: this.gameWidth() + 1 });
 		}
-		for (var left = -1; left <= SNAKE.gameWidth(); left++) {
-			this.attrs.boundaries.push({ top: -1, left: left });
-			this.attrs.boundaries.push({ top: this.gameHeight() + 1, left: left });
+		for (var left = -1; left <= GAME.gameWidth(); left++) {
+			this.attrs.boundaries.pixels.push({ top: -1, left: left });
+			this.attrs.boundaries.pixels.push({ top: this.gameHeight() + 1, left: left });
 		}
 		return this.attrs.boundaries;
 	},
 	detectCollisionBetween: function(objectA, objectB) {
-		return objectA.some(function(pixelA) {
-			return objectB.some(function(pixelB) {
+		return objectA.pixels.some(function(pixelA) {
+			return objectB.pixels.some(function(pixelB) {
 				return pixelB.top === pixelA.top && pixelB.left === pixelA.left;
 			});
 		});
 	},
 	randomLocation: function() {
-		return {
-			top: Math.floor(Math.random() * SNAKE.gameHeight()),
-			left: Math.floor(Math.random() * SNAKE.gameWidth())
-		};
+		return [
+			{
+				top: Math.floor(Math.random() * GAME.gameHeight()),
+				left: Math.floor(Math.random() * GAME.gameWidth())
+			}
+		];
 	},
 	flashMessage: function(message) {
-		var canvas = document.getElementById('chunk-game');
+		var canvas = document.getElementById('snake-game');
 		var context = canvas.getContext('2d');
 		context.font = '20pt Calibri';
 		context.fillStyle = 'yellow';
 		context.fillText(message, 75, 100);
+	},
+	drawStuff: function(snakeToDraw, appleToDraw) {
+		var drawableObjects = [];
+
+		if (GAME.isApple) {
+			drawableObjects = [snakeToDraw, appleToDraw];
+		} else if (GAME.isSnake) {
+			drawableObjects = [snakeToDraw];
+		}
+		GAME.render(drawableObjects);
+	},
+	segmentFurtherForwardThan: function(index, GAME) {
+		if (GAME[index - 1] === undefined) {
+			return GAME[index];
+		} else {
+			return GAME[index - 1];
+		}
+	},
+	moveSnake: function(snake) {
+		return snake.map(function(oldSegment, segmentIndex) {
+			var newSegment = GAME.moveSegment(oldSegment);
+			newSegment.direction = GAME.segmentFurtherForwardThan(segmentIndex, snake).direction;
+			return newSegment;
+		});
+	},
+	setDirectionForSnake: function(direction) {
+		snake.pixels[0].direction = direction ? direction : 'down';
+	},
+	moveSegment: function(segment) {
+		switch (segment.direction) {
+			case 'down':
+				return { top: segment.top + 1, left: segment.left };
+			case 'up':
+				return { top: segment.top - 1, left: segment.left };
+			case 'right':
+				return { top: segment.top, left: segment.left + 1 };
+			case 'left':
+				return { top: segment.top, left: segment.left - 1 };
+			default:
+				return segment;
+		}
+	},
+	loop: function(tickCallback, gameSpeed) {
+		GAME.executeNTimesPerSecond(tickCallback, gameSpeed ? gameSpeed : 1);
+	},
+	move: function(game) {
+		snake.pixels = GAME.moveSnake(snake.pixels);
+
+		if (GAME.detectCollisionBetween(snake, GAME.gameBoundaries())) {
+			GAME.endGame();
+			GAME.flashMessage('Woops! you hit a wall!');
+		}
+
+		if (game) {
+			game();
+		}
+
+		if (typeof apple !== 'undefined') {
+			GAME.drawStuff(snake, apple);
+		} else {
+			GAME.drawStuff(snake);
+		}
+	},
+	growSnake: function() {
+		var lastSegment = snake.pixels[snake.pixels.length - 1];
+		snake.pixels.push({ top: lastSegment.top, left: lastSegment.left });
+	},
+	createSnake: function(name, colour) {
+		if (name) {
+			var player = document.getElementById('player');
+			player.innerHTML = 'Player 1: ' + name;
+		}
+		if (colour && typeof colour !== 'string') {
+			console.warn('Colour should be a string');
+		}
+
+		var s = {
+			color: colour ? colour : 'green',
+			pixels: [{ top: 1, left: 0, direction: 'down' }, { top: 0, left: 0, direction: 'down' }]
+		};
+
+		s.head = function() {
+			return { pixels: [s.pixels[0]] };
+		},
+		s.body = function() {
+			var p = s.pixels.slice(1)
+			return { pixels: p };
+		};
+
+		return s;
+	},
+	createApple: function() {
+		return { color: 'red', pixels: GAME.randomLocation() };
+	},
+	setAppleInRandomLocation: function() {
+		return { color: 'red', pixels: GAME.randomLocation() };
 	}
 };

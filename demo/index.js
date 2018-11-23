@@ -1,32 +1,33 @@
-var snake = SNAKE.createSnake('Phil');
-var apple = SNAKE.createApple();
+var myName = "Go4Tech";
+var snake = GAME.createSnake(myName);
+var apple = GAME.createApple();
 var gameSpeed = 3;
 
 var moveSnake = function(direction) {
-	if (direction === 'down') {
-		SNAKE.setDirectionForSnake('down');
-	} else if (direction === 'up') {
-		SNAKE.setDirectionForSnake('up');
-	} else if (direction === 'right') {
-		SNAKE.setDirectionForSnake('right');
-	} else if (direction === 'left') {
-		SNAKE.setDirectionForSnake('left');
+	if (direction === "down") {
+		GAME.setDirectionForSnake("down");
+	} else if (direction === "up") {
+		GAME.setDirectionForSnake("up");
+	} else if (direction === "right") {
+		GAME.setDirectionForSnake("right");
+	} else if (direction === "left") {
+		GAME.setDirectionForSnake("left");
   }
 };
 
-var game = function() {
+var gameRules = function() {
   
-  if (SNAKE.detectCollisionBetween(snake.head(), snake.body())) {
-    SNAKE.endGame();
-    SNAKE.flashMessage("Woops! You ate yourself!");
+  if (GAME.detectCollisionBetween(snake.head(), snake.body())) {
+    GAME.endGame();
+    GAME.flashMessage("Woops! You ate yourself!");
   }
 
-	if (SNAKE.detectCollisionBetween(snake, apple)) {
-    SNAKE.growSnake();
-		apple = SNAKE.setAppleInRandomLocation();
+	if (GAME.detectCollisionBetween(snake, apple)) {
+    GAME.growSnake();
+		apple = GAME.setAppleInRandomLocation();
 	}
 };
 
-SNAKE.draw(snake, apple);
-SNAKE.loop(game, gameSpeed);
-SNAKE.onArrowKey(moveSnake);
+GAME.draw(snake, apple);
+GAME.loop(gameRules, gameSpeed);
+GAME.onArrowKey(moveSnake);

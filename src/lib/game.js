@@ -26,7 +26,7 @@ var GAME = {
 		if (GAME.context) {
 			return GAME.context;
 		}
-		var canvas = document.getElementById('GAME-game');
+		var canvas = document.getElementById('snake-game');
 		GAME.context = canvas.getContext('2d');
 		return GAME.context;
 	},
@@ -54,14 +54,14 @@ var GAME = {
 			GAME.drawObjects(objects);
 		}
 	},
-	draw: function(GAME, apple) {
+	draw: function(snake, apple) {
 		if (apple) {
 			GAME.isSnake = true;
 			GAME.isApple = true;
-		} else if (GAME) {
+		} else if (snake) {
 			GAME.isSnake = true;
 		}
-		GAME.drawStuff(GAME, apple);
+		GAME.drawStuff(snake, apple);
 	},
 	clear: function() {
 		GAME.canvas().clearRect(0, 0, GAME.canvasWidth, GAME.canvasHeight);
@@ -113,7 +113,7 @@ var GAME = {
 		];
 	},
 	flashMessage: function(message) {
-		var canvas = document.getElementById('GAME-game');
+		var canvas = document.getElementById('snake-game');
 		var context = canvas.getContext('2d');
 		context.font = '20pt Calibri';
 		context.fillStyle = 'yellow';
@@ -136,15 +136,15 @@ var GAME = {
 			return GAME[index - 1];
 		}
 	},
-	moveSnake: function(GAME) {
-		return GAME.map(function(oldSegment, segmentIndex) {
+	moveSnake: function(snake) {
+		return snake.map(function(oldSegment, segmentIndex) {
 			var newSegment = GAME.moveSegment(oldSegment);
-			newSegment.direction = GAME.segmentFurtherForwardThan(segmentIndex, GAME).direction;
+			newSegment.direction = GAME.segmentFurtherForwardThan(segmentIndex, snake).direction;
 			return newSegment;
 		});
 	},
 	setDirectionForSnake: function(direction) {
-		GAME.pixels[0].direction = direction ? direction : 'down';
+		snake.pixels[0].direction = direction ? direction : 'down';
 	},
 	moveSegment: function(segment) {
 		switch (segment.direction) {
@@ -164,9 +164,9 @@ var GAME = {
 		GAME.executeNTimesPerSecond(tickCallback, gameSpeed ? gameSpeed : 1);
 	},
 	move: function(game) {
-		GAME.pixels = GAME.moveSnake(GAME.pixels);
+		snake.pixels = GAME.moveSnake(snake.pixels);
 
-		if (GAME.detectCollisionBetween(GAME, GAME.gameBoundaries())) {
+		if (GAME.detectCollisionBetween(snake, GAME.gameBoundaries())) {
 			GAME.endGame();
 			GAME.flashMessage('Woops! you hit a wall!');
 		}
@@ -176,14 +176,14 @@ var GAME = {
 		}
 
 		if (typeof apple !== 'undefined') {
-			GAME.drawStuff(GAME, apple);
+			GAME.drawStuff(snake, apple);
 		} else {
-			GAME.drawStuff(GAME);
+			GAME.drawStuff(snake);
 		}
 	},
 	growSnake: function() {
-		var lastSegment = GAME.pixels[GAME.pixels.length - 1];
-		GAME.pixels.push({ top: lastSegment.top, left: lastSegment.left });
+		var lastSegment = snake.pixels[snake.pixels.length - 1];
+		snake.pixels.push({ top: lastSegment.top, left: lastSegment.left });
 	},
 	createSnake: function(name, colour) {
 		if (name) {
