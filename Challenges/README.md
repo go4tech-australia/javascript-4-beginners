@@ -7,3 +7,4 @@ TODO: Add challenges
 - grow snake
 - end game from eating yourself
 - add score 
+- make the game faster when the score increases
