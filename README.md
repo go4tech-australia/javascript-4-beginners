@@ -51,3 +51,8 @@ Practice what you learned in the lessons with these [exercises](Exercises/).
 Test your knowledge of programing in javascript with these [challenges](Challenges/). And prove to yourself that you are a JS master 😊
 
 ---
+
+## Go4Tech
+
+<iframe src="https://player.vimeo.com/video/301756824" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/301756824">Everyone can code</a> from <a href="https://vimeo.com/maiisthebest">Phuong Mai Nguyen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
