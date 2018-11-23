@@ -1,4 +1,4 @@
-var CHUNK = {
+var SNAKE = {
 	canvasWidth: 400,
 	canvasHeight: 400,
 	pixelSize: 20,
@@ -17,39 +17,39 @@ var CHUNK = {
 		return this.attrs.gameWidth || (this.attrs.gameWidth = this.canvasWidth / this.pixelSize);
 	},
 	canvas: function() {
-		if (CHUNK.context) {
-			return CHUNK.context;
+		if (SNAKE.context) {
+			return SNAKE.context;
 		}
 		var canvas = document.getElementById('chunk-game');
-		CHUNK.context = canvas.getContext('2d');
-		return CHUNK.context;
+		SNAKE.context = canvas.getContext('2d');
+		return SNAKE.context;
 	},
 	executeNTimesPerSecond: function(tickCallback, gameSpeed) {
 		tickCallback();
-		CHUNK.processID = setInterval(function() {
+		SNAKE.processID = setInterval(function() {
 			tickCallback();
 		}, 1000 / gameSpeed);
 	},
 	onArrowKey: function(callback) {
 		document.addEventListener('keydown', function(e) {
-			if (CHUNK.KEY_MAPPING[e.which]) {
+			if (SNAKE.KEY_MAPPING[e.which]) {
 				e.preventDefault();
-				callback(CHUNK.KEY_MAPPING[e.which]);
+				callback(SNAKE.KEY_MAPPING[e.which]);
 			}
 		});
 	},
 	endGame: function() {
 		this.started = false;
-		clearInterval(CHUNK.processID);
+		clearInterval(SNAKE.processID);
 	},
 	draw: function(objects) {
 		if (this.started) {
-			CHUNK.clear();
-			CHUNK.drawObjects(objects);
+			SNAKE.clear();
+			SNAKE.drawObjects(objects);
 		}
 	},
 	clear: function() {
-		CHUNK.canvas().clearRect(0, 0, CHUNK.canvasWidth, CHUNK.canvasHeight);
+		SNAKE.canvas().clearRect(0, 0, SNAKE.canvasWidth, SNAKE.canvasHeight);
 	},
 	drawObjects: function(objects) {
 		var ui = this;
@@ -60,23 +60,23 @@ var CHUNK = {
 		});
 	},
 	drawPixel: function(color, pixel) {
-		CHUNK.canvas().fillStyle = color;
-		var translatedPixel = CHUNK.translatePixel(pixel);
-		CHUNK.context.fillRect(translatedPixel.left, translatedPixel.top, CHUNK.pixelSize, CHUNK.pixelSize);
+		SNAKE.canvas().fillStyle = color;
+		var translatedPixel = SNAKE.translatePixel(pixel);
+		SNAKE.context.fillRect(translatedPixel.left, translatedPixel.top, SNAKE.pixelSize, SNAKE.pixelSize);
 	},
 	translatePixel: function(pixel) {
-		return { left: pixel.left * CHUNK.pixelSize, top: pixel.top * CHUNK.pixelSize };
+		return { left: pixel.left * SNAKE.pixelSize, top: pixel.top * SNAKE.pixelSize };
 	},
 	gameBoundaries: function() {
 		if (this.attrs.boundaries) {
 			return this.attrs.boundaries;
 		}
 		this.attrs.boundaries = [];
-		for (var top = -1; top <= CHUNK.gameHeight(); top++) {
+		for (var top = -1; top <= SNAKE.gameHeight(); top++) {
 			this.attrs.boundaries.push({ top: top, left: -1 });
 			this.attrs.boundaries.push({ top: top, left: this.gameWidth() + 1 });
 		}
-		for (var left = -1; left <= CHUNK.gameWidth(); left++) {
+		for (var left = -1; left <= SNAKE.gameWidth(); left++) {
 			this.attrs.boundaries.push({ top: -1, left: left });
 			this.attrs.boundaries.push({ top: this.gameHeight() + 1, left: left });
 		}
@@ -91,8 +91,8 @@ var CHUNK = {
 	},
 	randomLocation: function() {
 		return {
-			top: Math.floor(Math.random() * CHUNK.gameHeight()),
-			left: Math.floor(Math.random() * CHUNK.gameWidth())
+			top: Math.floor(Math.random() * SNAKE.gameHeight()),
+			left: Math.floor(Math.random() * SNAKE.gameWidth())
 		};
 	},
 	flashMessage: function(message) {
