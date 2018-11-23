@@ -8,3 +8,5 @@ TODO: Add challenges
 - end game from eating yourself
 - add score 
 - make the game faster when the score increases
+
+The library used in the challenges is call `GAME.js`. The documentation can be found [here](../lib/documentation) 

@@ -1,4 +1,6 @@
+<p align="center">
 <a title="Ramaksoud2000 via Chris Williams [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:JavaScript-logo.png"><img width="128" alt="JavaScript-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/128px-JavaScript-logo.png"></a>
+</p>
 
 # Javascript 4 Beginners
 
@@ -52,6 +54,14 @@ Test your knowledge of programing in javascript with these [challenges](Challeng
 
 ---
 
+## GAME.js
+
+The library used in the curse is call `GAME.js`. The documentation can be found [here](lib/documentation) 
+
+---
+
 ## Go4Tech - Javascript 4 Beginners
 
-[![Go4Tech - Javascript 4 Beginners](https://i.vimeocdn.com/video/740451786_640.webp)](https://vimeo.com/301756824 "Go4Tech - Javascript 4 Beginners")
+<p align="center">
+<a title="Go4Tech - Javascript 4 Beginners" href="https://vimeo.com/301756824"><img width="640" alt="JavaScript-logo" src="https://i.vimeocdn.com/video/740451786_640.webp"></a>
+</p>
