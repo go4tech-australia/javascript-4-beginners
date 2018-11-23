@@ -52,7 +52,6 @@ Test your knowledge of programing in javascript with these [challenges](Challeng
 
 ---
 
-## Go4Tech
+## Go4Tech - Javascript 4 Beginners
 
-<iframe src="https://player.vimeo.com/video/301756824" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/301756824">Everyone can code</a> from <a href="https://vimeo.com/maiisthebest">Phuong Mai Nguyen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+[![Go4Tech - Javascript 4 Beginners](https://i.vimeocdn.com/video/740451786_640.webp)](https://vimeo.com/301756824 "Go4Tech - Javascript 4 Beginners")
