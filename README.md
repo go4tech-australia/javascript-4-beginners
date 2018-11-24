@@ -12,7 +12,7 @@
   - [Loops](Lessons/4.%20Loops.md)
 - [Exercises](Exercises/)
 - [Challenges](Challenges/)
-- [Resources](Resurces/)
+- [Resources](Resources/)
 
 ---
 
