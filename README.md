@@ -5,7 +5,7 @@
 # Javascript 4 Beginners
 
 - [Getting Started](#getting-started)
-- [What is Programming?](#what-is-programing)
+- [What is Programming?](#what-is-programming)
 - [Lessons](Lessons/)
   - [Variables](Lessons/1.%20Variables.md)
   - [Functions](Lessons/2.%20Functions.md)
