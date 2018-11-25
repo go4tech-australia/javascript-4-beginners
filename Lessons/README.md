@@ -10,4 +10,4 @@ TODO: Add content
 
 ## Library
 
-TODO: Add content and link to chunk lib
+Click [here](../lib/documentation) to read more about the GAME library and [here](../lib/game.js) to look at its code base.

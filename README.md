@@ -12,7 +12,7 @@
   - [Loops](Lessons/4.%20Loops.md)
 - [Exercises](Exercises/)
 - [Challenges](Challenges/)
-- [Resources](Resurces/)
+- [Resources](Resources/)
 
 ---
 
@@ -39,12 +39,12 @@ TODO: What is basic programming
 
 ## Exercise
 
-Practice what you learned in the lessons with these [exercises](Exercises/).
+Practice what you learned in the lessons with these [exercises](Exercises/). All your code must go in [src/index.js](src/index.js) file.
 
-1. [Variables](Lessons/1.%20Variables.md)
-2. [Functions](Lessons/2.%20Functions.md)
-3. [Conditionals](Lessons/3.%20Conditionals.md)
-4. [Loops](Lessons/4.%20Loops.md)
+1. [Variables](Exercises/1.%20Variables.md)
+2. [Functions](Exercises/2.%20Functions.md)
+3. [Conditionals](Exercises/3.%20Conditionals.md)
+4. [Loops](Exercises/4.%20Loops.md)
 
 ---
 
@@ -56,7 +56,7 @@ Test your knowledge of programing in javascript with these [challenges](Challeng
 
 ## GAME.js
 
-The library used in the curse is call `GAME.js`. The documentation can be found [here](lib/documentation) 
+The library used in the course is call `GAME.js`. The documentation can be found [here](lib/documentation)
 
 ---
 

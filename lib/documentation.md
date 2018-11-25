@@ -25,7 +25,7 @@ GAME.createApple(): Apple
 ```javascript
 GAME.setDirectionForSnake(): void
 ```
-`GAME.setDirectionForSnake` sets the direction for where the snake will move next. It does nto return anything.
+`GAME.setDirectionForSnake` sets the direction for where the snake will move next. It does not return anything.
 
 ---
 
@@ -67,7 +67,7 @@ GAME.draw([snake, [apple]]): void
 ```javascript
 GAME.loop([gameRules: function, [gameSpeed: number]]): void
 ```
-`GAME.loop` has two optional parameters, gameRules and gameSpeed. 
+`GAME.loop` has two optional parameters, gameRules and gameSpeed.
 
 `gameRules` can be any function. This function will be passed a `snake` and `apple` as arguments.
 
@@ -80,7 +80,7 @@ GAME.loop([gameRules: function, [gameSpeed: number]]): void
 ```javascript
 GAME.onArrowKey(callback: function): void
 ```
-`GAME.onArrowKey` has one parameters, `callback`, which takes a function as an argument.  This function will be passed a `direction` of `"up"`, `"down"`, `"left"` and `"right"`. 
+`GAME.onArrowKey` has one parameters, `callback`, which takes a function as an argument.  This function will be passed a `direction` of `"up"`, `"down"`, `"left"` and `"right"`.
 
 `GAME.onArrowKey` does not return anything.
 
