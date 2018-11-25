@@ -11,4 +11,4 @@ All lessons should be written the [index.js](../src/index.js) file found in the 
 3. [Conditionals](3.%20Conditionals.md)
 4. [Loops](4.%20Loops.md)
 
-The library used in the exercises is call `GAME.js`. The documentation can be found [here](../lib/documentation) 
+The library used in the exercises is call `GAME.js`. The documentation can be found [here](../lib/documentation.md)

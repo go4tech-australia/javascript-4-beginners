@@ -74,7 +74,7 @@ Test your knowledge of programing in javascript with these [challenges](Challeng
 
 ## GAME.js
 
-The library used in the course is call `GAME.js`. The documentation can be found [here](lib/documentation)
+The library used in the course is call `GAME.js`. The documentation can be found [here](lib/documentation.md)
 
 ---
 

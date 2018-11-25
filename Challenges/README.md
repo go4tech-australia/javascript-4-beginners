@@ -8,4 +8,4 @@ The following challenges build off of what you learned in the lessons as well as
 - `Add score:` Add 10 points to every apple you consume and display it to the console.
 - `Make the game faster when the score increases`.
 
-REMEMBER: The library used in the challenges is call `GAME.js`. The documentation can be found [here](../lib/documentation)
+REMEMBER: The library used in the challenges is call `GAME.js`. The documentation can be found [here](../lib/documentation.md)
