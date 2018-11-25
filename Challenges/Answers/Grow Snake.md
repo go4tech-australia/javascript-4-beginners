@@ -1,8 +1,8 @@
+```javascript
 var myName = 'Go4Tech';
 var snake = GAME.createSnake(myName);
 var apple = GAME.createApple();
 var gameSpeed = 3;
-var score = 0;
 
 var moveSnake = function(direction) {
 	if (direction === 'down') {
@@ -17,22 +17,17 @@ var moveSnake = function(direction) {
 };
 
 var gameRules = function() {
-	if (GAME.detectCollisionBetween(snake.head(), snake.body())) {
-		GAME.endGame('Woops! You ate yourself!');
-	}
-
+    // Detect if the snake ate an apple
 	if (GAME.detectCollisionBetween(snake, apple)) {
-		GAME.growSnake();
+        // If true, then grow the snake
+        GAME.growSnake();
+        // Set a new location for the apple
 		apple = GAME.setAppleInRandomLocation();
-
-		gameSpeed = gameSpeed + 1;
-		GAME.increaseGameSpeed(gameSpeed)
-
-		score = score + 10;
-		console.log(myName, 'Score: ', score);
 	}
 };
 
 GAME.draw(snake, apple);
-GAME.loop(gameSpeed, gameRules);
+GAME.loop(gameRules, gameSpeed);
 GAME.onArrowKey(moveSnake);
+
+```
