@@ -65,13 +65,13 @@ GAME.draw([snake, [apple]]): void
 ---
 
 ```javascript
-GAME.loop([gameRules: function, [gameSpeed: number]]): void
+GAME.loop([gameSpeed: number, [gameRules: function]]): void
 ```
 `GAME.loop` has two optional parameters, gameRules and gameSpeed.
 
-`gameRules` can be any function. This function will be passed a `snake` and `apple` as arguments.
-
 `gameSpeed` is a number. The number is how many times the game will render per second.
+
+`gameRules` can be any function. This function will be passed a `snake` and `apple` as arguments.
 
 `GAME.loop` does not return anything.
 
@@ -85,6 +85,14 @@ GAME.onArrowKey(callback: function): void
 `GAME.onArrowKey` does not return anything.
 
 ---
+
+```javascript
+GAME.increaseGameSpeed(speed: number): void
+```
+`GAME.increaseGameSpeed` increases the speed of the game. The function does not return anything.
+
+---
+
 
 ## SNAKE
 
