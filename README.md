@@ -5,7 +5,8 @@
 # Javascript 4 Beginners
 
 - [Getting Started](#getting-started)
-- [Basic Programing](Lessons/)
+- [What is Programming?](#what-is-programing)
+- [Lessons](Lessons/)
   - [Variables](Lessons/1.%20Variables.md)
   - [Functions](Lessons/2.%20Functions.md)
   - [Conditionals](Lessons/3.%20Conditionals.md)
@@ -26,9 +27,26 @@ Install [Google Chrome](https://www.google.com/chrome/)
 
 ---
 
-## Basic Programming
+## What is Programming?
 
-TODO: What is basic programming
+A computer can only perform a series of simple operations when instructed to do so. They normally have no ability to learn, judge, or improvise. They simply do what they're told to do! Their value comes from how they can quickly handle and process huge amounts of information.
+
+A computer often requires human intervention. That's where programmers and developers come in! They write programs, which are really just instructions to a computer.
+
+A computer program (also called an application or software) is usually comprised of one or more text files containing commands, or instructions, in the form of code. This is why developers are also called coders.
+
+A programming language is a way to give orders to a computer. It's a bit like a human language! Each programming language has vocabulary (keywords that each play a specific role) and grammar (rules defining how to write programs in that language).
+
+Reference: [Introduction to Programming](https://openclassrooms.com/en/courses/3523231-learn-to-code-with-javascript/3673541-introduction-to-programming)
+
+---
+
+## Lessons 
+In this course we will be teaching you four programing concepts which can be applied to practically all modern programing languages. To teach these concepts we will be using the programming language [JavaScript](https://www.javascript.com/).
+
+JavaScript is the language of the web. It powers billions of websites that billions of people view everyday.
+
+The four lessons are:
 
   - [Variables](Lessons/1.%20Variables.md)
   - [Functions](Lessons/2.%20Functions.md)
@@ -64,4 +82,8 @@ The library used in the course is call `GAME.js`. The documentation can be found
 
 <p align="center">
 <a title="Go4Tech - Javascript 4 Beginners" href="https://vimeo.com/301756824"><img width="640" alt="JavaScript-logo" src="https://i.vimeocdn.com/video/740451786_640.webp"></a>
+</p>
+<p align="center">
+<a title="Go4Tech - Javascript 4 Beginners" href="https://vimeo.com/301756824">[Watch Video]</a>
+
 </p>
