@@ -1,6 +1,6 @@
 # Exercises
 
-The following exercises compliment the lessons found in the [lessons](../Lessons/) fodlder.
+The following exercises compliment the lessons found in the [lessons](../Lessons/) folder.
 
 Attempt each lesson by yourself and if you get stuck, you can ask your mentor for help. The lessons build off each other so it is best to do them in order.
 
