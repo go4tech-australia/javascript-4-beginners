@@ -41,17 +41,18 @@ Reference: [Introduction to Programming](https://openclassrooms.com/en/courses/3
 
 ---
 
-## Lessons 
+## Lessons
+
 In this course we will be teaching you four programing concepts which can be applied to practically all modern programing languages. To teach these concepts we will be using the programming language [JavaScript](https://www.javascript.com/).
 
 JavaScript is the language of the web. It powers billions of websites that billions of people view everyday.
 
 The four lessons are:
 
-  - [Variables](Lessons/1.%20Variables.md)
-  - [Functions](Lessons/2.%20Functions.md)
-  - [Conditionals](Lessons/3.%20Conditionals.md)
-  - [Loops](Lessons/4.%20Loops.md)
+- [Variables](Lessons/1.%20Variables.md)
+- [Functions](Lessons/2.%20Functions.md)
+- [Conditionals](Lessons/3.%20Conditionals.md)
+- [Loops](Lessons/4.%20Loops.md)
 
 ---
 
@@ -74,7 +75,7 @@ Test your knowledge of programing in javascript with these [challenges](Challeng
 
 ## GAME.js
 
-The library used in the course is call `GAME.js`. The documentation can be found [here](lib/documentation.md)
+The library used in the course is called `GAME.js`. The documentation can be found [here](lib/documentation.md).
 
 ---
 
