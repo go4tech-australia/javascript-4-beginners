@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a>
+
 # Functions
 **Functions** are blocks of code that can be named and reused.
 
@@ -56,13 +58,13 @@ Reference: [https://www.javascript.com/learn/functions](https://www.javascript.c
 ---
 <div style="float: left">
 
-<i>Previous: <a href="./1%20Variables">Variables<i>
+<i>Previous: <a href="./1%20Variables">Variables</a><i>
 
 
 </div>
 
 <div style="float: right">
 
-*Next: [Conditionals](3%20Conditionals)*
+<i>Next: <a href="./3%20Conditionals">Conditionals</a><i>
 
 </div>

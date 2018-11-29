@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a>
+
 # Variables
 **Variables** are named values and can store any type of JavaScript value.
 
@@ -92,12 +94,12 @@ Reference: [https://www.javascript.com/learn/variables](https://www.javascript.c
 ---
 <div style="float: left">
 
-<i>Previous: <a href="./Lessons">Lessons<i>
+<i>Previous: <a href="./Lessons">Lessons</a><i>
 
 </div>
 
 <div style="float: right">
 
-<i>Next: <a href="./2%20Functions">Functions<i>
+<i>Next: <a href="./2%20Functions">Functions</a><i>
 
 </div>

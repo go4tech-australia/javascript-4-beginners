@@ -23,6 +23,6 @@ In `GAME.loop()` pass a function as the second argument after passing in the spe
 ---
 <div style="float: left">
 
-<i>Previous: <a href="./3%20Conditionals">Conditionals<i>
+<i>Previous: <a href="./3%20Conditionals">Conditionals</a><i>
 
 </div>

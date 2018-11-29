@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a>
+
 # Loops
 
 **Loops** offer a quick and easy way to do something repeatedly.
@@ -27,6 +29,6 @@ Reference: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_
 ---
 <div style="float: left">
 
-<i>Previous: <a href="./3%20Conditionals">Conditionals<i>
+<i>Previous: <a href="./3%20Conditionals">Conditionals</a><i>
 
 </div>

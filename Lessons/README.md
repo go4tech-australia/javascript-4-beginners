@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a>
+
 # What is Programming?
 
 A computer can only perform a series of simple operations when instructed to do so. They normally have no ability to learn, judge, or improvise. They simply do what they're told to do! Their value comes from how they can quickly handle and process huge amounts of information.

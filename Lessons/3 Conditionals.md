@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a>
+
 # Conditionals
 
 **Conditionals** control behavior in JavaScript and determine whether or not pieces of code can run.
@@ -112,12 +114,12 @@ Reference: [https://www.javascript.com/learn/conditionals](https://www.javascrip
 ---
 <div style="float: left">
 
-<i>Previous: <a href="./2%20Functions">Functions<i>
+<i>Previous: <a href="./2%20Functions">Functions</a><i>
 
 </div>
 
 <div style="float: right">
 
-<i>Next: <a href="./4%20Loops">Loops<i>
+<i>Next: <a href="./4%20Loops">Loops</a><i>
 
 </div>
