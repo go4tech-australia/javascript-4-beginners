@@ -2,7 +2,7 @@
 
 In `index.js`:
 
-### Exercise 1.
+### Exercise 1
 
 ```javascript
 var counter = 0;
@@ -19,7 +19,7 @@ for(var i = 0; i < 3; i++){
 }
 ```
 
-### Exercise 2.
+### Exercise 2
 
 a.
 ```javascript
@@ -31,7 +31,7 @@ b.
 GAME.onArrowKey(moveSnake)
 ```
 
-### Exercise 2.
+### Exercise 2
 
 ```javascript
 var gameRules = function(){

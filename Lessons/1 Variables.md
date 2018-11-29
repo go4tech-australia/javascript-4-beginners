@@ -89,4 +89,15 @@ Variable names are case-sensitive, so myVar, MyVar, and myvar are all different 
 
 Reference: [https://www.javascript.com/learn/variables](https://www.javascript.com/learn/variables)
 
-_Continue on to lesson 2: [Functions](2.%20Functions.md)._
+---
+<div style="float: left">
+
+*Previous: [Lessons](Lessons/)*
+
+</div>
+
+<div style="float: right">
+
+*Next: [Functions](2%20Functions.md)*
+
+</div>

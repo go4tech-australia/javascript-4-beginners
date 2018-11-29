@@ -7,13 +7,14 @@
 - [Getting Started](#getting-started)
 - [What is Programming?](#what-is-programming)
 - [Lessons](Lessons/)
-  - [Variables](Lessons/1.%20Variables.md)
-  - [Functions](Lessons/2.%20Functions.md)
-  - [Conditionals](Lessons/3.%20Conditionals.md)
-  - [Loops](Lessons/4.%20Loops.md)
+  - [Variables](Lessons/1%20Variables.md)
+  - [Functions](Lessons/2%20Functions.md)
+  - [Conditionals](Lessons/3%20Conditionals.md)
+  - [Loops](Lessons/4%20Loops.md)
 - [Exercises](Exercises/)
 - [Challenges](Challenges/)
 - [Resources](Resources/)
+- [Demo](https://go4tech-australia.github.io/javascript-4-beginners/demo/)
 
 ---
 
@@ -21,9 +22,25 @@
 
 To follow along and to write some code please:
 
-Install [Visual Studio Code](https://code.visualstudio.com/Download)
+ - Install [Visual Studio Code](https://code.visualstudio.com/Download) from Microsoft
 
-Install [Google Chrome](https://www.google.com/chrome/)
+- Install [Google Chrome](https://www.google.com/chrome/) from Google
+
+- Download [javascript-4-beginners](https://github.com/go4tech-australia/javascript-4-beginners/archive/develop.zip) from Github and unzip/extract the folder
+
+Using Visual Studio Code open the `javascript-4-beginners` folder. You will see a list of folders in the sidebar. Inside the `src` folder is `index.js`. This is where you will be writing your code.
+
+The `Lessons` folder contains the course content.
+
+The `Exercises` folder contains the course exercises.
+
+The `Challenges` folder contains additional exercises to complete and test you new knowledge.
+
+The `Demo` folder contains a demo example of what you can build by completing all the exercises and challenges. 
+
+The `lib` folder contains the JS library `game.js` and it's associated documentation.
+
+The `Resources` folder contains links to additional learning resources
 
 ---
 
@@ -49,10 +66,10 @@ JavaScript is the language of the web. It powers billions of websites that billi
 
 The four lessons are:
 
-- [Variables](Lessons/1.%20Variables.md)
-- [Functions](Lessons/2.%20Functions.md)
-- [Conditionals](Lessons/3.%20Conditionals.md)
-- [Loops](Lessons/4.%20Loops.md)
+- [Variables](Lessons/1%20Variables.md)
+- [Functions](Lessons/2%20Functions.md)
+- [Conditionals](Lessons/3%20Conditionals.md)
+- [Loops](Lessons/4%20Loops.md)
 
 ---
 
@@ -60,10 +77,10 @@ The four lessons are:
 
 Practice what you learned in the lessons with these [exercises](Exercises/). All your code must go in [src/index.js](src/index.js) file.
 
-1. [Variables](Exercises/1.%20Variables.md)
-2. [Functions](Exercises/2.%20Functions.md)
-3. [Conditionals](Exercises/3.%20Conditionals.md)
-4. [Loops](Exercises/4.%20Loops.md)
+1 [Variables](Exercises/1%20Variables.md)
+2 [Functions](Exercises/2%20Functions.md)
+3 [Conditionals](Exercises/3%20Conditionals.md)
+4 [Loops](Exercises/4%20Loops.md)
 
 ---
 
@@ -79,7 +96,15 @@ The library used in the course is called `GAME.js`. The documentation can be fou
 
 ---
 
-## Go4Tech - Javascript 4 Beginners
+## Demo
+
+[Demo](https://go4tech-australia.github.io/javascript-4-beginners/demo/)
+
+TODO: add image
+
+---
+
+## Go4Tech
 
 <p align="center">
 <a title="Go4Tech - Javascript 4 Beginners" href="https://vimeo.com/301756824"><img width="640" alt="JavaScript-logo" src="https://i.vimeocdn.com/video/740451786_640.webp"></a>

@@ -109,4 +109,15 @@ undefined
 
 Reference: [https://www.javascript.com/learn/conditionals](https://www.javascript.com/learn/conditionals)
 
-_Continue on to lesson 4: [Loops](4.%20Loops.md)._
+---
+<div style="float: left">
+
+*Previous: [Functions](2%20Functions.md)*
+
+</div>
+
+<div style="float: right">
+
+*Next: [Loops](4%20Loops.md)*
+
+</div>

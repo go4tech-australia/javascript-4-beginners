@@ -1,6 +1,6 @@
 # Functions
 
-### Exercise 1.
+### Exercise 1
 
 ```javascript
 var myName = 'Go4Tech';
@@ -11,7 +11,7 @@ var sayMyName = function(name) {
 sayMyName(myName);
 ```
 
-### Exercise 2.
+### Exercise 2
 
 a.
 
@@ -30,7 +30,7 @@ var snake = GAME.createSnake(myName, "green");
 GAME.draw(snake);
 ```
 
-### Exercise 3.
+### Exercise 3
 
 a.
 

@@ -4,7 +4,7 @@ PRO TIP: In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on t
 
 In [index.js](../src/index.js):
 
-### Exercise 1.
+### Exercise 1
 
 Create a function called `sayMyName` which has `name` as a parameter and returns "Hello " + `name`. Pass in your variable `myName`. You can display the value by using the `alert()` function.
 
@@ -21,7 +21,7 @@ OUTPUT
 **HINT:**
 Adding words together is very similar to adding numbers. Adding words together is called [concatenation](http://2ality.com/2011/10/string-concatenation.html).
 
-### Exercise 2.
+### Exercise 2
 
 
 a. Create another variable `snake` and assign it the return value of `GAME.createSnake()`.
@@ -33,11 +33,11 @@ c. Now that you have created your snake, it is time to draw it on the screen. To
 Open index.html. You should see your snake drawn on the screen.
 
 Experimentation time:
-1. What would happen if you did not type in `GAME.draw(snake)` and open `index.html`?
-2. Can you `createSnake()` without specifying any color? Try running it without color argument and see what happens!
+1 What would happen if you did not type in `GAME.draw(snake)` and open `index.html`?
+2 Can you `createSnake()` without specifying any color? Try running it without color argument and see what happens!
 
 
-### Exercise 3.
+### Exercise 3
 
 a. Create a function called `moveSnake` which takes `direction` as a argument. Inside this function call `GAME.setDirectionForSnake()`, which takes your direction as a argument.
 
@@ -47,4 +47,16 @@ Keep calling `moveSnake` to have your snake move further.
 
 PRO TIP: Your function does not return anything. A function that does not return anything is called a `void` function. See the [GAME](../lib/documentation.md) documentation for more detail.
 
-_Continue on to exercise 3: [Conditionals](3.%20Conditionals.md)._
+
+---
+<div style="float: left">
+
+*Previous: [Variables](1%20Variables.md)*
+
+</div>
+
+<div style="float: right">
+
+*Next: [Conditionals](3%20Conditionals.md)*
+
+</div>

@@ -53,4 +53,15 @@ OUTPUT
 
 Reference: [https://www.javascript.com/learn/functions](https://www.javascript.com/learn/functions)
 
-_Continue on to lesson 3: [Conditionals](3.%20Conditionals.md)._
+---
+<div style="float: left">
+
+*Previous: [Variables](1%20Variables.md)*
+
+</div>
+
+<div style="float: right">
+
+*Next: [Conditionals](3%20Conditionals.md)*
+
+</div>

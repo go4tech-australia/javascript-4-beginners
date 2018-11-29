@@ -2,7 +2,7 @@
 
 In [index.js](../src/index.js):
 
-### Exercise 1.
+### Exercise 1
 
 a. Create a variable `myName` and assign it a value of your name.
 
@@ -14,4 +14,15 @@ Open index.html. Your name should appear in the alert box.
 
 **PRO TIP:** In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on the network tab in opened dev tools to see all your console logs, errors and more information.
 
-_Continue on to exercise 2: [Functions](2.%20Functions.md)._
+---
+<div style="float: left">
+
+*Previous: [Lessons](Lessons/)*
+
+</div>
+
+<div style="float: right">
+
+*Next: [Functions](2%20Functions.md)*
+
+</div>

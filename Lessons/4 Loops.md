@@ -7,7 +7,7 @@ You can think of a loop as a computerized version of the game where you tell som
 ```javascript
 var step;
 for (step = 0; step < 5; step++) {
-  // Runs 5 times, with values of step 0 through 4.
+  // Runs 5 times, with values of step 0 through 4
   console.log('Walking east step number:' + step);
 }
 ```
@@ -23,3 +23,10 @@ The statements for loops provided in JavaScript are:
 - for...of statement
 
 Reference: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+
+---
+<div style="float: left">
+
+*Previous: [Conditionals](3%20Conditionals.md)*
+
+</div>

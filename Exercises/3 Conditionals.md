@@ -20,4 +20,17 @@ Now to test if everything is working correctly, open `index.html` in the browser
 
 PRO TIP: In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on the network tab in opened dev tools to see all your console logs, errors and more information.
 
-_Continue on to exercise 4: [Loops](4.%20Loops.md)._
+
+---
+<div style="float: left">
+
+*Previous: [Functions](2%20Functions.md)*
+
+</div>
+
+<div style="float: right">
+
+*Next: [Loops](4%20Loops.md)*
+
+</div>
+
