@@ -1,4 +1,4 @@
-<a href="/javascript-4-beginners/">Home</a>
+<a href="/javascript-4-beginners/">Home</a> / <a href="/javascript-4-beginners/Lessons/">Lessons</a> / Functions
 
 # Functions
 **Functions** are blocks of code that can be named and reused.

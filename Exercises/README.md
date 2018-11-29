@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a> / Exercises
+
 # Exercises
 
 The following exercises compliment the lessons found in the [lessons](../Lessons/) folder.

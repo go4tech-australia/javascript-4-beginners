@@ -1,6 +1,8 @@
+<a href="/javascript-4-beginners/">Home</a> / Resources
+
 # Resources
 
-Learning
+## Learning
 
 - [PluralSight](https://pluralsight.com){:target="_blank"}
 - [W3 schools](https://www.w3schools.com/js){:target="_blank"}
@@ -10,13 +12,13 @@ Learning
 - [google](https://google.com){:target="_blank"}
 - [Tuts+](https://tutsplus.com/){:target="_blank"}
 
-Books
+## Books
 
 - [Eloquent Javascript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf){:target="_blank"}
 - [You don't know JS](https://github.com/getify/You-Dont-Know-JS){:target="_blank"}
 - [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do){:target="_blank"}
 
-References
+## References
 
 - [Mozzila developer Network](https://developer.mozilla.org){:target="_blank"}
 - [2ality](http://2ality.com/2011/10/string-concatenation.html){:target="_blank"}

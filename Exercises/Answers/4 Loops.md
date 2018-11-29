@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a> / <a href="/javascript-4-beginners/Exercises/">Exercises</a> / <a href="/javascript-4-beginners/Answers/">Answers</a> / Loops
+
 # Loops
 
 In `index.js`:

@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a> / <a href="/javascript-4-beginners/Exercises/">Exercises</a> / Variables
+
 # Variables
 
 In [index.js](../src/index.js):

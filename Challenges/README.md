@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a> / Challenges
+
 # Challenges
 
 The following challenges build on of what you learned in the lessons as well as what you build in the exercises.

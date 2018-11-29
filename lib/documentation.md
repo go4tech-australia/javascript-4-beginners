@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a> / Game JS
+
 # GAME JS
 
 GAME.js is a javascript library that provide helper functions and game play.

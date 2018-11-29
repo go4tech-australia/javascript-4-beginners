@@ -1,3 +1,5 @@
+<a href="/javascript-4-beginners/">Home</a> / <a href="/javascript-4-beginners/Exercises/">Exercises</a> / Conditionals
+
 # Conditionals
 
 In [index.js](../src/index.js):
