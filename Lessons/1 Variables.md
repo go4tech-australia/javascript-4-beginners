@@ -94,12 +94,12 @@ Reference: [https://www.javascript.com/learn/variables](https://www.javascript.c
 ---
 <div style="float: left">
 
-<i>Previous: <a href="./Lessons">Lessons</a><i>
+<i>Previous: <a href="./Lessons">Lessons</a></i>
 
 </div>
 
 <div style="float: right">
 
-<i>Next: <a href="./2%20Functions">Functions</a><i>
+<i>Next: <a href="./2%20Functions">Functions</a></i>
 
 </div>

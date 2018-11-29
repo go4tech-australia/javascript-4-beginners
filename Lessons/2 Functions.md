@@ -58,13 +58,13 @@ Reference: [https://www.javascript.com/learn/functions](https://www.javascript.c
 ---
 <div style="float: left">
 
-<i>Previous: <a href="./1%20Variables">Variables</a><i>
+<i>Previous: <a href="./1%20Variables">Variables</a></i>
 
 
 </div>
 
 <div style="float: right">
 
-<i>Next: <a href="./3%20Conditionals">Conditionals</a><i>
+<i>Next: <a href="./3%20Conditionals">Conditionals</a></i>
 
 </div>
