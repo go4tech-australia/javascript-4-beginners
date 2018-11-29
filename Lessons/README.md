@@ -35,3 +35,12 @@ The JavaScript library (a library is a set of code that was previously written, 
 Click [here](../lib/documentation) to read the GAME JS documentation.
 
 Click [here](../lib/game.js) to see the code.
+
+## Exercises
+
+After reading through the lessons, practice what you just learnt by trying the following exercises:
+
+1. [Variables](../Exercises/1%20Variables)
+2. [Functions](../Exercises/2%20Functions)
+3. [Conditionals](../Exercises/3%20Conditionals)
+4. [Loops](../Exercises/4%20Loops)
