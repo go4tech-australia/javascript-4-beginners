@@ -8,11 +8,11 @@ A computer program (also called an application or software) is usually comprised
 
 A programming language is a way to give orders to a computer. It's a bit like a human language! Each programming language has vocabulary (keywords that each play a specific role) and grammar (rules defining how to write programs in that language).
 
-Reference: [Introduction to Programming](https://openclassrooms.com/en/courses/3523231-learn-to-code-with-javascript/3673541-introduction-to-programming)
+Reference: [Introduction to Programming](https://openclassrooms.com/en/courses/3523231-learn-to-code-with-javascript/3673541-introduction-to-programming){:target="_blank"}
 
 ---
 
-In this course we will be teaching you four programing concepts which can be applied to practically all modern programing languages. To teach these concepts we will be using the programming language [JavaScript](https://www.javascript.com/).
+In this course we will be teaching you four programing concepts which can be applied to practically all modern programing languages. To teach these concepts we will be using the programming language [JavaScript](https://www.javascript.com/){:target="_blank"}.
 
 JavaScript is the language of the web. It powers billions of websites that billions of people view everyday.
 

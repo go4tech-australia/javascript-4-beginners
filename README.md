@@ -60,7 +60,7 @@ Reference: [Introduction to Programming](https://openclassrooms.com/en/courses/3
 
 ## Lessons
 
-In this course we will be teaching you four programing concepts which can be applied to practically all modern programing languages. To teach these concepts we will be using the programming language [JavaScript](https://www.javascript.com/).
+In this course we will be teaching you four programing concepts which can be applied to practically all modern programing languages. To teach these concepts we will be using the programming language [JavaScript](https://www.javascript.com/){:target="_blank"}.
 
 JavaScript is the language of the web. It powers billions of websites that billions of people view everyday.
 
