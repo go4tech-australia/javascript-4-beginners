@@ -112,6 +112,9 @@ undefined
 Reference: [https://www.javascript.com/learn/conditionals](https://www.javascript.com/learn/conditionals){:target="_blank"}
 
 ---
+
+<div style="overflow:auto">
+
 <div style="float: left">
 
 <i>Previous: <a href="./2%20Functions">Functions</a></i>
@@ -122,4 +125,5 @@ Reference: [https://www.javascript.com/learn/conditionals](https://www.javascrip
 
 <i>Next: <a href="./4%20Loops">Loops</a></i>
 
+</div>
 </div>

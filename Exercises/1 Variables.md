@@ -17,6 +17,9 @@ Open index.html. Your name should appear in the alert box.
 **PRO TIP:** In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on the network tab in opened dev tools to see all your console logs, errors and more information.
 
 ---
+
+<div style="overflow:auto">
+
 <div style="float: left">
 
 <i>Previous: <a href="./Exercises">Exercises</a></i>
@@ -30,3 +33,5 @@ Open index.html. Your name should appear in the alert box.
 
 
 </div>
+</div>
+

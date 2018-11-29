@@ -23,8 +23,12 @@ PRO TIP: In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on t
 In `GAME.loop()` pass a function as the second argument after passing in the speed. This function will called on every loop. Try passing a `console.log`.
 
 ---
+
+<div style="overflow:auto">
+
 <div style="float: left">
 
 <i>Previous: <a href="./3%20Conditionals">Conditionals</a></i>
 
+</div>
 </div>

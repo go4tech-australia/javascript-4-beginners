@@ -51,6 +51,9 @@ PRO TIP: Your function does not return anything. A function that does not return
 
 
 ---
+
+<div style="overflow:auto">
+
 <div style="float: left">
 
 <i>Previous: <a href="./1%20Variables">Variables</a></i>
@@ -62,4 +65,5 @@ PRO TIP: Your function does not return anything. A function that does not return
 <i>Next: <a href="./3%20Conditionals">Conditionals</a></i>
 
 
+</div>
 </div>

@@ -24,6 +24,9 @@ PRO TIP: In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on t
 
 
 ---
+
+<div style="overflow:auto">
+
 <div style="float: left">
 
 <i>Previous: <a href="./2%20Functions">Functions</a></i>
@@ -37,4 +40,6 @@ PRO TIP: In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on t
 
 
 </div>
+</div>
+
 

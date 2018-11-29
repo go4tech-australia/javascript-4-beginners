@@ -27,8 +27,12 @@ The statements for loops provided in JavaScript are:
 Reference: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration){:target="_blank"}
 
 ---
+
+<div style="overflow:auto">
+
 <div style="float: left">
 
 <i>Previous: <a href="./3%20Conditionals">Conditionals</a></i>
 
+</div>
 </div>
