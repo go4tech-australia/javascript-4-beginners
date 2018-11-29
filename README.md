@@ -98,16 +98,16 @@ The library used in the course is called `GAME.js`. The documentation can be fou
 
 ## Demo
 
-[Demo](https://go4tech-australia.github.io/javascript-4-beginners/demo/)
+[Demo](https://go4tech-australia.github.io/javascript-4-beginners/demo/){:target="_blank"}
 
 ---
 
 ## Go4Tech
 
 <p align="center">
-<a title="Go4Tech - Javascript 4 Beginners" href="https://vimeo.com/301756824"><img width="640" alt="JavaScript-logo" src="https://i.vimeocdn.com/video/740451786_640.webp"></a>
+<a title="Go4Tech - Javascript 4 Beginners" href="https://vimeo.com/301756824" target="_blank"><img width="640" alt="JavaScript-logo" src="https://i.vimeocdn.com/video/740451786_640.webp"></a>
 </p>
 <p align="center">
-<a title="Go4Tech - Javascript 4 Beginners" href="https://vimeo.com/301756824">[Watch Video]</a>
+<a title="Go4Tech - Javascript 4 Beginners" href="https://vimeo.com/301756824" target="_blank">[Watch Video]</a>
 
 </p>

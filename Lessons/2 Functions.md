@@ -51,12 +51,13 @@ OUTPUT
 256
 ```
 
-Reference: [https://www.javascript.com/learn/functions](https://www.javascript.com/learn/functions)
+Reference: [https://www.javascript.com/learn/functions](https://www.javascript.com/learn/functions){:target="_blank"}
 
 ---
 <div style="float: left">
 
-*Previous: [Variables](1%20Variables)*
+<i>Previous: <a href="./1%20Variables">Variables<i>
+
 
 </div>
 

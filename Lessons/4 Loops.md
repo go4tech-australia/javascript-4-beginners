@@ -22,11 +22,11 @@ The statements for loops provided in JavaScript are:
 - for...in statement
 - for...of statement
 
-Reference: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+Reference: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration){:target="_blank"}
 
 ---
 <div style="float: left">
 
-*Previous: [Conditionals](3%20Conditionals)*
+<i>Previous: <a href="./3%20Conditionals">Conditionals<i>
 
 </div>

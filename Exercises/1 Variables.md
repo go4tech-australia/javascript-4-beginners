@@ -17,12 +17,14 @@ Open index.html. Your name should appear in the alert box.
 ---
 <div style="float: left">
 
-*Previous: [Lessons](Lessons/)*
+<i>Previous: <a href="./Exercises">Exercises<i>
+
 
 </div>
 
 <div style="float: right">
 
-*Next: [Functions](2%20Functions)*
+<i>Next: <a href="./2%20Functions">Functions<i>
+
 
 </div>

@@ -51,12 +51,14 @@ PRO TIP: Your function does not return anything. A function that does not return
 ---
 <div style="float: left">
 
-*Previous: [Variables](1%20Variables)*
+<i>Previous: <a href="./1%20Variables">Variables<i>
 
 </div>
 
 <div style="float: right">
 
 *Next: [Conditionals](3%20Conditionals)*
+<i>Next: <a href="./3%20Conditionals">Conditionals<i>
+
 
 </div>

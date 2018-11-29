@@ -107,17 +107,17 @@ OUTPUT
 undefined
 ```
 
-Reference: [https://www.javascript.com/learn/conditionals](https://www.javascript.com/learn/conditionals)
+Reference: [https://www.javascript.com/learn/conditionals](https://www.javascript.com/learn/conditionals){:target="_blank"}
 
 ---
 <div style="float: left">
 
-*Previous: [Functions](2%20Functions)*
+<i>Previous: <a href="./2%20Functions">Functions<i>
 
 </div>
 
 <div style="float: right">
 
-*Next: [Loops](4%20Loops)*
+<i>Next: <a href="./4%20Loops">Loops<i>
 
 </div>

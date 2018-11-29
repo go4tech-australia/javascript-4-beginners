@@ -24,13 +24,15 @@ PRO TIP: In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on t
 ---
 <div style="float: left">
 
-*Previous: [Functions](2%20Functions)*
+<i>Previous: <a href="./2%20Functions">Functions<i>
+
 
 </div>
 
 <div style="float: right">
 
-*Next: [Loops](4%20Loops)*
+<i>Next: <a href="./4%20Loops">Loops<i>
+
 
 </div>
 

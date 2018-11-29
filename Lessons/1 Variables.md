@@ -87,17 +87,17 @@ var class = "easy";
 
 Variable names are case-sensitive, so myVar, MyVar, and myvar are all different variables. But generally, it’s a good practice to avoid naming variables so similarly.
 
-Reference: [https://www.javascript.com/learn/variables](https://www.javascript.com/learn/variables)
+Reference: [https://www.javascript.com/learn/variables](https://www.javascript.com/learn/variables){:target="_blank"}
 
 ---
 <div style="float: left">
 
-*Previous: [Lessons](Lessons/)*
+<i>Previous: <a href="./Lessons">Lessons<i>
 
 </div>
 
 <div style="float: right">
 
-*Next: [Functions](2%20Functions)*
+<i>Next: <a href="./2%20Functions">Functions<i>
 
 </div>
