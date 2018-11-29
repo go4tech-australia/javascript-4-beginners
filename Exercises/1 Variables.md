@@ -19,14 +19,14 @@ Open index.html. Your name should appear in the alert box.
 ---
 <div style="float: left">
 
-<i>Previous: <a href="./Exercises">Exercises</i>
+<i>Previous: <a href="./Exercises">Exercises</a></i>
 
 
 </div>
 
 <div style="float: right">
 
-<i>Next: <a href="./2%20Functions">Functions</i>
+<i>Next: <a href="./2%20Functions">Functions</a></i>
 
 
 </div>
