@@ -1,4 +1,4 @@
-<a href="/javascript-4-beginners/">Home</a> /
+<a href="/javascript-4-beginners/">Home</a> / <a href="/javascript-4-beginners/Lessons/">Lessons</a> / Variables
 
 # Variables
 **Variables** are named values and can store any type of JavaScript value.

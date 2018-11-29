@@ -75,7 +75,7 @@ The four lessons are:
 
 ## Exercise
 
-Practice what you learned in the lessons with these [exercises](Exercises/). All your code must go in [src/index.js](src/index.js) file.
+Practice what you learned in the lessons with these [exercises](Exercises/). All your code must go in `src/index.js`.
 
 1. [Variables](Exercises/1%20Variables)
 2. [Functions](Exercises/2%20Functions)

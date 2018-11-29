@@ -2,7 +2,7 @@
 
 # Conditionals
 
-### Exercise 21
+### Exercise 1
 
 a.
 

@@ -4,7 +4,7 @@
 
 PRO TIP: In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on the network tab in opened dev tools to see all your console logs, errors and more information.
 
-In [index.js](../src/index.js):
+In `src/index.js` complete:
 
 ### Exercise 1
 

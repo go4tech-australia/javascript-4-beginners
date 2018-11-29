@@ -2,8 +2,6 @@
 
 # Loops
 
-In `index.js`:
-
 ### Exercise 1
 
 ```javascript

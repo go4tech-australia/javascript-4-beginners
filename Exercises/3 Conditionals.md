@@ -2,7 +2,7 @@
 
 # Conditionals
 
-In [index.js](../src/index.js):
+In `src/index.js` complete:
 
 ### Exercise 1
 
