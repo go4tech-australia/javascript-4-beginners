@@ -30,6 +30,8 @@ The four lessons are:
 
 The JavaScript library (a library is a set of code that was previously written, that can be called upon when building your own code) we will be using to teach the four progrmaing concepts is:
 
-## Library
+## Library | GAME.js
 
-Click [here](../lib/documentation) to read more about the GAME library and [here](../lib/game.js) to look at its code base.
+Click [here](../lib/documentation) to read the GAME JS documentation.
+
+Click [here](../lib/game.js) to see the code.
