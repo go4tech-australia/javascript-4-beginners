@@ -56,12 +56,12 @@ Reference: [https://www.javascript.com/learn/functions](https://www.javascript.c
 ---
 <div style="float: left">
 
-*Previous: [Variables](1%20Variables.md)*
+*Previous: [Variables](1%20Variables)*
 
 </div>
 
 <div style="float: right">
 
-*Next: [Conditionals](3%20Conditionals.md)*
+*Next: [Conditionals](3%20Conditionals)*
 
 </div>

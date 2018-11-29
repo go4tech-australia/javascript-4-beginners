@@ -98,6 +98,6 @@ Reference: [https://www.javascript.com/learn/variables](https://www.javascript.c
 
 <div style="float: right">
 
-*Next: [Functions](2%20Functions.md)*
+*Next: [Functions](2%20Functions)*
 
 </div>

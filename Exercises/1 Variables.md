@@ -23,6 +23,6 @@ Open index.html. Your name should appear in the alert box.
 
 <div style="float: right">
 
-*Next: [Functions](2%20Functions.md)*
+*Next: [Functions](2%20Functions)*
 
 </div>

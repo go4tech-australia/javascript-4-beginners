@@ -7,10 +7,10 @@
 - [Getting Started](#getting-started)
 - [What is Programming?](#what-is-programming)
 - [Lessons](Lessons/)
-  - [Variables](Lessons/1%20Variables.md)
-  - [Functions](Lessons/2%20Functions.md)
-  - [Conditionals](Lessons/3%20Conditionals.md)
-  - [Loops](Lessons/4%20Loops.md)
+  - [Variables](Lessons/1%20Variables)
+  - [Functions](Lessons/2%20Functions)
+  - [Conditionals](Lessons/3%20Conditionals)
+  - [Loops](Lessons/4%20Loops)
 - [Exercises](Exercises/)
 - [Challenges](Challenges/)
 - [Resources](Resources/)
@@ -54,7 +54,7 @@ A computer program (also called an application or software) is usually comprised
 
 A programming language is a way to give orders to a computer. It's a bit like a human language! Each programming language has vocabulary (keywords that each play a specific role) and grammar (rules defining how to write programs in that language).
 
-Reference: [Introduction to Programming](https://openclassrooms.com/en/courses/3523231-learn-to-code-with-javascript/3673541-introduction-to-programming)
+Reference: [Introduction to Programming](https://openclassrooms.com/en/courses/3523231-learn-to-code-with-javascript/3673541-introduction-to-programming){:target="_blank"}
 
 ---
 
@@ -66,10 +66,10 @@ JavaScript is the language of the web. It powers billions of websites that billi
 
 The four lessons are:
 
-- [Variables](Lessons/1%20Variables.md)
-- [Functions](Lessons/2%20Functions.md)
-- [Conditionals](Lessons/3%20Conditionals.md)
-- [Loops](Lessons/4%20Loops.md)
+- [Variables](Lessons/1%20Variables)
+- [Functions](Lessons/2%20Functions)
+- [Conditionals](Lessons/3%20Conditionals)
+- [Loops](Lessons/4%20Loops)
 
 ---
 
@@ -77,10 +77,10 @@ The four lessons are:
 
 Practice what you learned in the lessons with these [exercises](Exercises/). All your code must go in [src/index.js](src/index.js) file.
 
-1 [Variables](Exercises/1%20Variables.md)
-2 [Functions](Exercises/2%20Functions.md)
-3 [Conditionals](Exercises/3%20Conditionals.md)
-4 [Loops](Exercises/4%20Loops.md)
+1. [Variables](Exercises/1%20Variables)
+2. [Functions](Exercises/2%20Functions)
+3. [Conditionals](Exercises/3%20Conditionals)
+4. [Loops](Exercises/4%20Loops)
 
 ---
 
@@ -92,15 +92,13 @@ Test your knowledge of programing in javascript with these [challenges](Challeng
 
 ## GAME.js
 
-The library used in the course is called `GAME.js`. The documentation can be found [here](lib/documentation.md).
+The library used in the course is called `GAME.js`. The documentation can be found [here](lib/documentation).
 
 ---
 
 ## Demo
 
 [Demo](https://go4tech-australia.github.io/javascript-4-beginners/demo/)
-
-TODO: add image
 
 ---
 

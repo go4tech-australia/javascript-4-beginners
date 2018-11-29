@@ -27,6 +27,6 @@ Reference: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_
 ---
 <div style="float: left">
 
-*Previous: [Conditionals](3%20Conditionals.md)*
+*Previous: [Conditionals](3%20Conditionals)*
 
 </div>

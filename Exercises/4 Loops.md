@@ -23,6 +23,6 @@ In `GAME.loop()` pass a function as the second argument after passing in the spe
 ---
 <div style="float: left">
 
-*Previous: [Conditionals](3%20Conditionals.md)*
+*Previous: [Conditionals](3%20Conditionals)*
 
 </div>

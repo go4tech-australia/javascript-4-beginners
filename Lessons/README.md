@@ -19,10 +19,10 @@ JavaScript is the language of the web. It powers billions of websites that billi
 The four lessons are:
 
 ## Lessons
-1 [Variables](1%20Variables.md)
-2 [Functions](2%20Functions.md)
-3 [Conditionals](3%20Conditionals.md)
-4 [Loops](4%20Loops.md)
+1. [Variables](1%20Variables)
+2. [Functions](2%20Functions)
+3. [Conditionals](3%20Conditionals)
+4. [Loops](4%20Loops)
 
 ---
 

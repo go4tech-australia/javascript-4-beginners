@@ -45,18 +45,18 @@ b. You may have notice your snake still doesn't move. After `GAME.setDirectionFo
 
 Keep calling `moveSnake` to have your snake move further.
 
-PRO TIP: Your function does not return anything. A function that does not return anything is called a `void` function. See the [GAME](../lib/documentation.md) documentation for more detail.
+PRO TIP: Your function does not return anything. A function that does not return anything is called a `void` function. See the [GAME](../lib/documentation) documentation for more detail.
 
 
 ---
 <div style="float: left">
 
-*Previous: [Variables](1%20Variables.md)*
+*Previous: [Variables](1%20Variables)*
 
 </div>
 
 <div style="float: right">
 
-*Next: [Conditionals](3%20Conditionals.md)*
+*Next: [Conditionals](3%20Conditionals)*
 
 </div>
