@@ -22,11 +22,11 @@
 
 To follow along and to write some code please:
 
- - Install [Visual Studio Code](https://code.visualstudio.com/Download) from Microsoft
+ - Install [Visual Studio Code](https://code.visualstudio.com/Download){:target="_blank"} from Microsoft
 
-- Install [Google Chrome](https://www.google.com/chrome/) from Google
+- Install [Google Chrome](https://www.google.com/chrome/){:target="_blank"} from Google
 
-- Download [javascript-4-beginners](https://github.com/go4tech-australia/javascript-4-beginners/archive/develop.zip) from Github and unzip/extract the folder
+- Download [javascript-4-beginners](https://github.com/go4tech-australia/javascript-4-beginners/archive/develop.zip){:target="_blank"} from Github and unzip/extract the folder
 
 Using Visual Studio Code open the `javascript-4-beginners` folder. You will see a list of folders in the sidebar. Inside the `src` folder is `index.js`. This is where you will be writing your code.
 
