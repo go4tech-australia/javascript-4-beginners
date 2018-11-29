@@ -14,7 +14,7 @@
 - [Exercises](Exercises/)
 - [Challenges](Challenges/)
 - [Resources](Resources/)
-- [Demo](https://go4tech-australia.github.io/javascript-4-beginners/demo/)
+- [Demo](https://go4tech-australia.github.io/javascript-4-beginners/demo/){:target="_blank"}
 
 ---
 
