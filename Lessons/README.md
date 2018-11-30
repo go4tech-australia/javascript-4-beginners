@@ -21,10 +21,10 @@ JavaScript is the language of the web. It powers billions of websites that billi
 The four lessons are:
 
 ## Lessons
-1. [Variables](1%20Variables)
-2. [Functions](2%20Functions)
-3. [Conditionals](3%20Conditionals)
-4. [Loops](4%20Loops)
+1. [Variables](1%20Variables.md)
+2. [Functions](2%20Functions.md)
+3. [Conditionals](3%20Conditionals.md)
+4. [Loops](4%20Loops.md)
 
 ---
 
@@ -32,7 +32,7 @@ The JavaScript library (a library is a set of code that was previously written, 
 
 ## Library | GAME.js
 
-Click [here](../lib/documentation) to read the GAME JS documentation.
+Click [here](../lib/documentation.md) to read the GAME JS documentation.
 
 Click [here](../lib/game.js) to see the code.
 
@@ -40,7 +40,7 @@ Click [here](../lib/game.js) to see the code.
 
 After reading through the lessons, practice what you just learnt by trying the following exercises:
 
-1. [Variables](../Exercises/1%20Variables)
-2. [Functions](../Exercises/2%20Functions)
-3. [Conditionals](../Exercises/3%20Conditionals)
-4. [Loops](../Exercises/4%20Loops)
+1. [Variables](../Exercises/1%20Variables.md)
+2. [Functions](../Exercises/2%20Functions.md)
+3. [Conditionals](../Exercises/3%20Conditionals.md)
+4. [Loops](../Exercises/4%20Loops.md)

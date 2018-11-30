@@ -117,13 +117,13 @@ Reference: [https://www.javascript.com/learn/conditionals](https://www.javascrip
 
 <div style="float: left">
 
-<i>Previous: <a href="./2%20Functions">Functions</a></i>
+<i>Previous: <a href="./2%20Functions.md">Functions</a></i>
 
 </div>
 
 <div style="float: right">
 
-<i>Next: <a href="./4%20Loops">Loops</a></i>
+<i>Next: <a href="./4%20Loops.md">Loops</a></i>
 
 </div>
 </div>

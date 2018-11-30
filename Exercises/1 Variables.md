@@ -29,7 +29,7 @@ Open index.html. Your name should appear in the alert box.
 
 <div style="float: right">
 
-<i>Next: <a href="./2%20Functions">Functions</a></i>
+<i>Next: <a href="./2%20Functions.md">Functions</a></i>
 
 
 </div>
