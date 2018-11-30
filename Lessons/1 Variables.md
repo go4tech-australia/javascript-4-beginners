@@ -1,4 +1,4 @@
-[Home](/index/) / [Lessons](./) / Variables
+[Home](../README.md) / [Lessons](./) / Variables
 
 # Variables
 **Variables** are named values and can store any type of JavaScript value.
