@@ -1,4 +1,4 @@
-<a href="/javascript-4-beginners/">Home</a> / <a href="/javascript-4-beginners/Exercises/">Challenges</a> / Answers
+[Home](../README.md) / [Challanges](./) / Answers
 
 # Answers
 

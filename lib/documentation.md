@@ -1,4 +1,4 @@
-<a href="/javascript-4-beginners/">Home</a> / Game JS
+[Home](../README.md) / Game JS
 
 # GAME JS
 

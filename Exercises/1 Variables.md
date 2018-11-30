@@ -1,4 +1,4 @@
-<a href="/javascript-4-beginners/">Home</a> / <a href="/javascript-4-beginners/Exercises/">Exercises</a> / Variables
+[Home](../README.md) / [Exercises](./) / Variables
 
 # Variables
 

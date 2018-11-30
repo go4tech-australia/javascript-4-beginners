@@ -1,4 +1,4 @@
-<a href="/javascript-4-beginners/">Home</a> / Exercises
+[Home](../README.md) / Exercises
 
 # Exercises
 
