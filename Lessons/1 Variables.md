@@ -1,4 +1,4 @@
-[Home](/) / [Lessons](./) / Variables
+[Home](/javascript-4-beginners) / [Lessons](./) / Variables
 
 # Variables
 **Variables** are named values and can store any type of JavaScript value.
