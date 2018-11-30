@@ -9,7 +9,7 @@ Attempt each lesson by yourself and if you get stuck, you can ask your mentor fo
 All lessons should be written in `src/index.js`. To run your code, open the [index.html](../src/index.html){:target="_blank"} file in your browser.
 
 1. [Variables](1%20Variables)
-2. [Functions](2%20Functions)
+2. [Functions](2%20Functions.md)
 3. [Conditionals](3%20Conditionals)
 4. [Loops](4%20Loops)
 
