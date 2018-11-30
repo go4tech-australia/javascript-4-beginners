@@ -1,4 +1,4 @@
-<a href="/javascript-4-beginners/">Home</a> / Lessons
+[Home](../README.md) / Lessons
 
 # What is Programming?
 

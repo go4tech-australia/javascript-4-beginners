@@ -1,4 +1,4 @@
-<a href="/javascript-4-beginners/">Home</a> / <a href="/javascript-4-beginners/Lessons/">Lessons</a> / Loops
+[Home](../README.md) / [Lessons](./) / Loops
 
 # Loops
 
