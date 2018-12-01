@@ -54,6 +54,10 @@ A computer program (also called an application or software) is usually comprised
 
 A programming language is a way to give orders to a computer. It's a bit like a human language! Each programming language has vocabulary (keywords that each play a specific role) and grammar (rules defining how to write programs in that language).
 
+<p align="center">
+<img width="640" alt="JavaScript-logo" src="https://j.gifs.com/KZ0xZM.gif">
+</p>
+
 Reference: [Introduction to Programming](https://openclassrooms.com/en/courses/3523231-learn-to-code-with-javascript/3673541-introduction-to-programming){:target="_blank"}
 
 ---
@@ -99,6 +103,10 @@ The library used in the course is called `GAME.js`. The documentation can be fou
 ## Demo
 
 [Demo](https://go4tech-australia.github.io/javascript-4-beginners/demo/){:target="_blank"}
+
+<p align="center">
+<img width="640" alt="JavaScript-logo" src="https://j.gifs.com/KZ0xZM.gif">
+</p>
 
 ---
 

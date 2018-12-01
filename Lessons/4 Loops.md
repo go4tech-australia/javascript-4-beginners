@@ -2,13 +2,16 @@
 
 # Loops
 
+<p align="center">
+<img width="640" alt="JavaScript-logo" src="https://j.gifs.com/RoRG1q.gif">
+</p>
+
 **Loops** offer a quick and easy way to do something repeatedly.
 
 You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; for example, the idea "Go five steps to the east" could be expressed this way as a loop:
 
 ```javascript
-var step;
-for (step = 0; step < 5; step++) {
+for (var step = 0; step < 5; step = step + 1) {
   // Runs 5 times, with values of step 0 through 4
   console.log('Walking east step number:' + step);
 }

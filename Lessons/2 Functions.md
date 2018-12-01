@@ -1,13 +1,18 @@
 [Home](../README.md) / [Lessons](./) / Functions
 
 # Functions
+
+<p align="center">
+<img width="640" alt="JavaScript-logo" src="https://j.gifs.com/0V1z0K.gif">
+</p>
+
 **Functions** are blocks of code that can be named and reused.
 
 Here’s how to declare a function:
 
 EXAMPLE
 ```javascript
-function addTwoNumbers(x, y) {
+var addTwoNumbers = function (x, y) {
        return x + y;
 }
 ```
@@ -26,7 +31,7 @@ Note that a function doesn’t have to have parameters.
 
 EXAMPLE
 ```javascript
-function greetThePlanet() {
+var greetThePlanet = function() {
        return "Hello world!";
 }
 ​
@@ -42,7 +47,7 @@ If a function _does_ have parameters, you’ll need to provide values inside the
 
 EXAMPLE
 ```javascript
-function square(number) {
+var square = function (number) {
        return number * number;
 }
 ​

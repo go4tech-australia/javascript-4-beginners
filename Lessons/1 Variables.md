@@ -1,6 +1,11 @@
 [Home](../README.md) / [Lessons](./) / Variables
 
 # Variables
+
+<p align="center">
+<img width="640" alt="JavaScript-logo" src="https://j.gifs.com/W7ZNBX.gif">
+</p>
+
 **Variables** are named values and can store any type of JavaScript value.
 
 Here’s how to declare a variable:

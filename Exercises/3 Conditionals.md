@@ -18,9 +18,11 @@ var moveSnake = function(direction){
 }
 ```
 
+**TIP**: `===` is the 'is equal to' operator. More information on operators can be found [here](https://www.javascript.com/learn/operators).
+
 Now to test if everything is working correctly, open `index.html` in the browser, open the developer console (see instructions below) and call `moveSnake` by passing in a direction of `"up"`, `"down"`, `"left"` or `"right"`. The snake should move.
 
-PRO TIP: In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on the network tab in opened dev tools to see all your console logs, errors and more information.
+**PRO TIP**: In your browser, press `CTRL + SHIFT + I` to open dev tools. Click on the network tab in opened dev tools to see all your console logs, errors and more information.
 
 
 ---

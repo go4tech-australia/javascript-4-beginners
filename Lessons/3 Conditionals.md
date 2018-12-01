@@ -2,6 +2,10 @@
 
 # Conditionals
 
+<p align="center">
+<img width="640" alt="JavaScript-logo" src="https://j.gifs.com/pQE522.gif">
+</p>
+
 **Conditionals** control behavior in JavaScript and determine whether or not pieces of code can run.
 
 ## if
@@ -24,10 +28,12 @@ OUTPUT
 
 Here’s what’s happening in the example above
 - The keyword `if` tells JavaScript to start the conditional statement.
-- `(10 > 5)` is the condition to test, which in this case is true — 10 is greater than 5.
+- `(10 > 5)` is the condition to test, which in this case is true — 10 is greater than 5. the `>` is the greater than operator
 - The part contained inside curly braces `{}` is the block of code to run.
 
 Because the condition passes, the variable outcome is assigned the value `"10 is greater than 5. This is assigned inside the if block"`.
+
+**Tip**: More information on operators can be found [here](https://www.javascript.com/learn/operators).
 
 ## else
 
