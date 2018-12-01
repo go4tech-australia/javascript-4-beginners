@@ -14,7 +14,7 @@
 - [Exercises](Exercises/)
 - [Challenges](Challenges/)
 - [Resources](Resources/)
-- [Demo](https://go4tech-australia.github.io/javascript-4-beginners/demo/){:target="_blank"}
+- [Demo](#demo)
 
 ---
 
@@ -103,7 +103,7 @@ The library used in the course is called `GAME.js`. The documentation can be fou
 ## Demo
 
 <p align="center">
-<a title="Go4Tech - Javascript 4 Beginners" href="https://vimeo.com/301756824" target="_blank"><img width="640" alt="JavaScript-logo" src="https://github.com/go4tech-australia/javascript-4-beginners/blob/master/lib/demo.png?raw=true"></a>
+<a title="Go4Tech - Javascript 4 Beginners" href="https://go4tech-australia.github.io/javascript-4-beginners/demo/" target="_blank"><img width="640" alt="JavaScript-logo" src="https://github.com/go4tech-australia/javascript-4-beginners/blob/master/lib/demo.png?raw=true"></a>
 </p>
 <p align="center">
 <a title="Go4Tech - Javascript 4 Beginners" href="https://go4tech-australia.github.io/javascript-4-beginners/demo/" target="_blank">[Demo]</a>
