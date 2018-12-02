@@ -18,6 +18,24 @@ Open index.html. Your name should appear in the alert box.
 
 ---
 
+# Expected Results
+
+### Exercise 1
+
+a.
+
+```javascript
+var myName = 'Go4Tech';
+```
+
+b.
+
+```javascript
+var myName = 'Go4Tech';
+alert(myName);
+```
+
+---
 <div style="overflow:auto">
 
 <div style="float: left">

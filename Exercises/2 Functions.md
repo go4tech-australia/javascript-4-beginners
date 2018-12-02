@@ -28,7 +28,7 @@ Adding words together is very similar to adding numbers. Adding words together i
 
 a. Create another variable `snake` and assign it the return value of `GAME.createSnake()`.
 
-b.  `GAME.createSnake()` takes two arguments, the first being a name and the second a color. Try passing the variable `name` as the first argument to `SNAKE.createSnake(). Now try passing a colour as the second argument.
+b.  `GAME.createSnake()` takes two arguments, the first being a name and the second a color. Try passing the variable `name` as the first argument to `GAME.createSnake()`. Now try passing a colour as the second argument.
 
 c. Now that you have created your snake, it is time to draw it on the screen. To do that just type in `GAME.draw(snake)` where `snake` is the variable you just created.
 
@@ -49,6 +49,61 @@ Keep calling `moveSnake` to have your snake move further.
 
 PRO TIP: Your function does not return anything. A function that does not return anything is called a `void` function. See the [GAME](../lib/documentation.md) documentation for more detail.
 
+---
+
+# Expected Results
+
+### Exercise 1
+
+```javascript
+var myName = 'Go4Tech';
+
+function sayMyName(name) {
+    return "Hello " + name;
+}
+sayMyName(myName);
+```
+
+### Exercise 2
+
+a.
+
+```javascript
+var snake = GAME.createSnake();
+```
+
+b.
+
+```javascript
+var snake = GAME.createSnake(myName, "green");
+```
+
+```javascript
+var snake = GAME.createSnake(myName, "green");
+GAME.draw(snake);
+```
+
+### Exercise 3
+
+a.
+
+```javascript
+function moveSnake(direction){
+    GAME.setDirectionForSnake(direction);
+}
+```
+
+b.
+
+```javascript
+function moveSnake(direction){
+    GAME.setDirectionForSnake(direction);
+    GAME.move();
+}
+
+moveSnake('right');
+moveSnake('down');
+```
 
 ---
 
