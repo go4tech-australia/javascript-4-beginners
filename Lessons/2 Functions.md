@@ -12,7 +12,7 @@ Here’s how to declare a function:
 
 EXAMPLE
 ```javascript
-var addTwoNumbers = function (x, y) {
+function addTwoNumbers(x, y) {
        return x + y;
 }
 ```
@@ -31,7 +31,7 @@ Note that a function doesn’t have to have parameters.
 
 EXAMPLE
 ```javascript
-var greetThePlanet = function() {
+function greetThePlanet() {
        return "Hello world!";
 }
 ​
@@ -47,7 +47,7 @@ If a function _does_ have parameters, you’ll need to provide values inside the
 
 EXAMPLE
 ```javascript
-var square = function (number) {
+function square(number) {
        return number * number;
 }
 ​

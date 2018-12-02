@@ -5,7 +5,7 @@ var snake = GAME.createSnake(myName);
 var apple = GAME.createApple();
 var gameSpeed = 3;
 
-var moveSnake = function(direction) {
+function moveSnake(direction) {
 	if (direction === 'down') {
 		GAME.setDirectionForSnake('down');
 	} else if (direction === 'up') {
@@ -17,7 +17,7 @@ var moveSnake = function(direction) {
 	}
 };
 
-var gameRules = function() {
+function gameRules() {
 };
 
 // Draw Apple with Snake

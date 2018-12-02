@@ -10,7 +10,7 @@ a. Lets expand on the `moveSnake` function. Inside the function add if/else stat
 
 EXAMPLE
 ```javascript
-var moveSnake = function(direction){
+function moveSnake(direction){
     if(direction === "down"){
         SNAKE.setDirectionForSnake("down");
     }

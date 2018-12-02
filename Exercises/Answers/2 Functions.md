@@ -7,7 +7,7 @@
 ```javascript
 var myName = 'Go4Tech';
 
-var sayMyName = function(name) {
+function sayMyName(name) {
     return "Hello " + name;
 }
 sayMyName(myName);
@@ -37,7 +37,7 @@ GAME.draw(snake);
 a.
 
 ```javascript
-var moveSnake = function(direction){
+function moveSnake(direction){
     GAME.setDirectionForSnake(direction);
 }
 ```
@@ -45,7 +45,7 @@ var moveSnake = function(direction){
 b.
 
 ```javascript
-var moveSnake = function(direction){
+function moveSnake(direction){
     GAME.setDirectionForSnake(direction);
     GAME.move();
 }

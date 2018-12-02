@@ -7,7 +7,7 @@
 a.
 
 ```javascript
-var moveSnake = function(direction) {
+function moveSnake(direction) {
 	if (direction === 'down') {
 		GAME.setDirectionForSnake('down');
 	} else if (direction === 'up') {

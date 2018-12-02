@@ -4,7 +4,7 @@ var snake = GAME.createSnake(myName, snakeColour);
 var apple = GAME.createApple();
 var gameSpeed = 3;
 
-var moveSnake = function(direction) {
+function moveSnake(direction) {
 	if (direction === 'down') {
 		GAME.setDirectionForSnake('down');
 	} else if (direction === 'up') {
@@ -16,7 +16,7 @@ var moveSnake = function(direction) {
 	}
 };
 
-var gameRules = function() {
+function gameRules() {
     // Detect if the snake head hit the snake tail
 	if (GAME.detectCollisionBetween(snake.head(), snake.body())) {
 		GAME.endGame('Woops! You ate yourself!');

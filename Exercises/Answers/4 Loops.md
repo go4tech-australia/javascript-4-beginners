@@ -34,7 +34,7 @@ GAME.onArrowKey(moveSnake)
 ### Exercise 2
 
 ```javascript
-var gameRules = function(){
+function gameRules(){
     console.log("Every loop I run");
 }
 GAME.loop(3, gameRules);
