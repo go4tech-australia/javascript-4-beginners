@@ -30,3 +30,14 @@ GAME.loop(gameSpeed, gameRules);
 GAME.onArrowKey(moveSnake);
 
 ```
+
+---
+
+<div style="overflow:auto">
+
+<div style="float: left">
+
+<i>Previous: <a href="./">Answers</a></i>
+
+
+</div>

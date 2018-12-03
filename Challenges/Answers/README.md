@@ -2,8 +2,8 @@
 
 # Answers
 
-- [Add apple](Answers/Add Apple.md)
-- [Grow snake](Answers/Grow Snake.md)
-- [End game from eating yourself](Answers/End Game From Eating Yourself.md)
-- [Add score](Answers/Add score.md)
-- [Make the game faster when the score increases](Answers/Make the game faster when the score increases.md)
+- [Add apple](Add Apple.md)
+- [Grow snake](Grow Snake.md)
+- [End game from eating yourself](End Game From Eating Yourself.md)
+- [Add score](Add score.md)
+- [Make the game faster when the score increases](Make the game faster when the score increases.md)
