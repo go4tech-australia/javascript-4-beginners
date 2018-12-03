@@ -100,7 +100,7 @@ Reference: [https://www.javascript.com/learn/variables](https://www.javascript.c
 <div style="overflow:auto">
 <div style="float: left">
 
-<i>Previous: <a href="./Lessons">Lessons</a></i>
+<i>Previous: <a href="./">Lessons</a></i>
 
 </div>
 

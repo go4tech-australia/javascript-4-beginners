@@ -40,7 +40,7 @@ alert(myName);
 
 <div style="float: left">
 
-<i>Previous: <a href="./Exercises">Exercises</a></i>
+<i>Previous: <a href="./">Exercises</a></i>
 
 
 </div>
