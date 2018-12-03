@@ -111,13 +111,13 @@ moveSnake('down');
 
 <div style="float: left">
 
-<i>Previous: <a href="./1Variables.md">Variables</a></i>
+<i>Previous: <a href="./1 Variables.md">Variables</a></i>
 
 </div>
 
 <div style="float: right">
 
-<i>Next: <a href="./3Conditionals.md">Conditionals</a></i>
+<i>Next: <a href="./3 Conditionals.md">Conditionals</a></i>
 
 
 </div>

@@ -123,13 +123,13 @@ Reference: [https://www.javascript.com/learn/conditionals](https://www.javascrip
 
 <div style="float: left">
 
-<i>Previous: <a href="./2Functions.md">Functions</a></i>
+<i>Previous: <a href="./2 Functions.md">Functions</a></i>
 
 </div>
 
 <div style="float: right">
 
-<i>Next: <a href="./4Loops.md">Loops</a></i>
+<i>Next: <a href="./4 Loops.md">Loops</a></i>
 
 </div>
 </div>

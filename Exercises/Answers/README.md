@@ -2,7 +2,7 @@
 
 # Answers
 
-1. [Variables](1Variables.md)
-2. [Functions](2Functions.md)
-3. [Conditionals](3Conditionals.md)
-4. [Loops](4Loops.md)
+1. [Variables](1 Variables.md)
+2. [Functions](2 Functions.md)
+3. [Conditionals](3 Conditionals.md)
+4. [Loops](4 Loops.md)
