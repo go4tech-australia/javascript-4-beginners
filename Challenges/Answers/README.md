@@ -1,4 +1,4 @@
-[Home](../README.md) / [Challanges](./) / Answers
+[Home](../README.md) / [Challenges](../README.md) / Answers
 
 # Answers
 
