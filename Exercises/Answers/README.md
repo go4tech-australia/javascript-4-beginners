@@ -11,7 +11,7 @@
 
 <div style="float: left">
 
-<i>Previous: <a href="../README.md">Answers</a></i>
+<i>Previous: <a href="../README.md">Exercises</a></i>
 
 
 </div>
