@@ -1,3 +1,7 @@
+[Home](../../README.md) / [Challenges](../README.md) / [Answers](./) / Variables
+
+# Add Apple
+
 ```javascript
 var myName = 'Go4Tech';
 var snake = GAME.createSnake(myName);

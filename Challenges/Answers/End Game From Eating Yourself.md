@@ -1,3 +1,7 @@
+[Home](../../README.md) / [Challenges](../README.md) / [Answers](./) / Variables
+
+# End Game From Eating Yourself
+
 ```javascript
 var myName = 'Go4Tech';
 var snake = GAME.createSnake(myName);

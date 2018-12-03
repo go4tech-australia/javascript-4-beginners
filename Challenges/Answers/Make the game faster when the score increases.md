@@ -1,3 +1,7 @@
+[Home](../../README.md) / [Challenges](../README.md) / [Answers](./) / Variables
+
+# Make the game faster when the score increases
+
 ```javascript
 var myName = 'Go4Tech';
 var snake = GAME.createSnake(myName, snakeColour);
