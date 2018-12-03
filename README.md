@@ -7,10 +7,10 @@
 - [Getting Started](#getting-started)
 - [What is Programming?](#what-is-programming)
 - [Lessons](Lessons/)
-  - [Variables](Lessons/1%20Variables.md)
-  - [Functions](Lessons/2%20Functions.md)
-  - [Conditionals](Lessons/3%20Conditionals.md)
-  - [Loops](Lessons/4%20Loops.md)
+  - [Variables](Lessons/1Variables.md)
+  - [Functions](Lessons/2Functions.md)
+  - [Conditionals](Lessons/3Conditionals.md)
+  - [Loops](Lessons/4Loops.md)
 - [Exercises](Exercises/)
 - [Challenges](Challenges/)
 - [Resources](Resources/)
@@ -70,10 +70,10 @@ JavaScript is the language of the web. It powers billions of websites that billi
 
 The four lessons are:
 
-- [Variables](Lessons/1%20Variables.md)
-- [Functions](Lessons/2%20Functions.md)
-- [Conditionals](Lessons/3%20Conditionals.md)
-- [Loops](Lessons/4%20Loops.md)
+- [Variables](Lessons/1Variables.md)
+- [Functions](Lessons/2Functions.md)
+- [Conditionals](Lessons/3Conditionals.md)
+- [Loops](Lessons/4Loops.md)
 
 ---
 
@@ -81,10 +81,10 @@ The four lessons are:
 
 Practice what you learned in the lessons with these [exercises](Exercises/). All your code must go in `src/index.js`.
 
-1. [Variables](Exercises/1%20Variables.md)
-2. [Functions](Exercises/2%20Functions.md)
-3. [Conditionals](Exercises/3%20Conditionals.md)
-4. [Loops](Exercises/4%20Loops.md)
+1. [Variables](Exercises/1Variables.md)
+2. [Functions](Exercises/2Functions.md)
+3. [Conditionals](Exercises/3Conditionals.md)
+4. [Loops](Exercises/4Loops.md)
 
 ---
 

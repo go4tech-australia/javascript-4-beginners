@@ -25,10 +25,10 @@ JavaScript is the language of the web. It powers billions of websites that billi
 The four lessons are:
 
 ## Lessons
-1. [Variables](1%20Variables.md)
-2. [Functions](2%20Functions.md)
-3. [Conditionals](3%20Conditionals.md)
-4. [Loops](4%20Loops.md)
+1. [Variables](1Variables.md)
+2. [Functions](2Functions.md)
+3. [Conditionals](3Conditionals.md)
+4. [Loops](4Loops.md)
 
 ---
 
@@ -44,7 +44,7 @@ Click [here](../lib/game.js) to see the code.
 
 After reading through the lessons, practice what you just learnt by trying the following exercises:
 
-1. [Variables](../Exercises/1%20Variables.md)
-2. [Functions](../Exercises/2%20Functions.md)
-3. [Conditionals](../Exercises/3%20Conditionals.md)
-4. [Loops](../Exercises/4%20Loops.md)
+1. [Variables](../Exercises/1Variables.md)
+2. [Functions](../Exercises/2Functions.md)
+3. [Conditionals](../Exercises/3Conditionals.md)
+4. [Loops](../Exercises/4Loops.md)

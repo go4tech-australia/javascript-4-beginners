@@ -106,7 +106,7 @@ Reference: [https://www.javascript.com/learn/variables](https://www.javascript.c
 
 <div style="float: right">
 
-<i>Next: <a href="./2%20Functions.md">Functions</a></i>
+<i>Next: <a href="./2Functions.md">Functions</a></i>
 
 </div>
 </div>

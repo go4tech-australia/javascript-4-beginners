@@ -70,7 +70,7 @@ GAME.loop(3, gameRules);
 
 <div style="float: left">
 
-<i>Previous: <a href="./3%20Conditionals.md">Conditionals</a></i>
+<i>Previous: <a href="./3Conditionals.md">Conditionals</a></i>
 
 </div>
 </div>

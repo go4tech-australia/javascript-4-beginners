@@ -47,7 +47,7 @@ alert(myName);
 
 <div style="float: right">
 
-<i>Next: <a href="./2%20Functions.md">Functions</a></i>
+<i>Next: <a href="./2Functions.md">Functions</a></i>
 
 
 </div>
