@@ -13,14 +13,14 @@ Below are the available functions to call on GAME
 ```javascript
 GAME.createSnake([name: string, [colour: string]]): Snake
 ```
-`GAME.createSnake` has two optional parameters, name and color, which are both strings. `GAME.createSnake` returns a snake Object.
+`GAME.createSnake` has two optional parameters, name and color, which are both strings. `GAME.createSnake` returns a `Snake` Object.
 
 ---
 
 ```javascript
 GAME.createApple(): Apple
 ```
-`GAME.createApple` returns a snake Object.
+`GAME.createApple` returns a `Apple` Object.
 
 ---
 
