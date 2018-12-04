@@ -73,7 +73,7 @@ GAME.loop([gameSpeed: number, [gameRules: function]]): void
 
 `gameSpeed` is a number. The number is how many times the game will render per second.
 
-`gameRules` can be any function. This function will be passed a `snake` and `apple` as arguments.
+`gameRules` can be any function.
 
 `GAME.loop` does not return anything.
 
