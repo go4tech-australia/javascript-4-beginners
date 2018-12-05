@@ -12,9 +12,9 @@ EXAMPLE
 ```javascript
 function moveSnake(direction){
     if(direction === "down"){
-        SNAKE.setDirectionForSnake("down");
+        GAME.setDirectionForSnake("down");
     }
-    SNAKE.move();
+    GAME.move();
 }
 ```
 
