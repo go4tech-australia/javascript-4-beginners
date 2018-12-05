@@ -4,17 +4,17 @@
 
 # Javascript 4 Beginners
 
-- [Getting Started](#getting-started)
-- [What is Programming?](#what-is-programming)
-- [Lessons](Lessons/)
-  - [Variables](Lessons/1 Variables.md)
-  - [Functions](Lessons/2 Functions.md)
-  - [Conditionals](Lessons/3 Conditionals.md)
-  - [Loops](Lessons/4 Loops.md)
-- [Exercises](Exercises/)
-- [Challenges](Challenges/)
-- [Resources](Resources/)
-- [Demo](#demo)
+-   [Getting Started](#getting-started)
+-   [What is Programming?](#what-is-programming)
+-   [Lessons](Lessons/)
+    -   [Variables](Lessons/1 Variables.md)
+    -   [Functions](Lessons/2 Functions.md)
+    -   [Conditionals](Lessons/3 Conditionals.md)
+    -   [Loops](Lessons/4 Loops.md)
+-   [Exercises](Exercises/)
+-   [Challenges](Challenges/)
+-   [Resources](Resources/)
+-   [Demo](#demo)
 
 ---
 
@@ -22,11 +22,11 @@
 
 To follow along and to write some code please:
 
- - Install [Visual Studio Code](https://code.visualstudio.com/Download){:target="_blank"} from Microsoft
+-   Install [Visual Studio Code](https://code.visualstudio.com/Download){:target="\_blank"} from Microsoft
 
-- Install [Google Chrome](https://www.google.com/chrome/){:target="_blank"} from Google
+-   Install [Google Chrome](https://www.google.com/chrome/){:target="\_blank"} from Google
 
-- Download [javascript-4-beginners](https://github.com/go4tech-australia/javascript-4-beginners/archive/develop.zip){:target="_blank"} from Github and unzip/extract the folder
+-   Download [javascript-4-beginners](https://github.com/go4tech-australia/javascript-4-beginners/archive/develop.zip){:target="\_blank"} from Github and unzip/extract the folder
 
 Using Visual Studio Code open the `javascript-4-beginners` folder. You will see a list of folders in the sidebar. Inside the `src` folder is `index.js`. This is where you will be writing your code.
 
@@ -36,7 +36,7 @@ The `Exercises` folder contains the course exercises.
 
 The `Challenges` folder contains additional exercises to complete and test you new knowledge.
 
-The `Demo` folder contains a demo example of what you can build by completing all the exercises and challenges. 
+The `Demo` folder contains a demo example of what you can build by completing all the exercises and challenges.
 
 The `lib` folder contains the JS library `game.js` and it's associated documentation.
 
@@ -58,22 +58,22 @@ A programming language is a way to give orders to a computer. It's a bit like a 
 <img width="640" alt="JavaScript-logo" src="https://j.gifs.com/KZ0xZM.gif">
 </p>
 
-Reference: [Introduction to Programming](https://openclassrooms.com/en/courses/3523231-learn-to-code-with-javascript/3673541-introduction-to-programming){:target="_blank"}
+Reference: [Introduction to Programming](https://openclassrooms.com/en/courses/3523231-learn-to-code-with-javascript/3673541-introduction-to-programming){:target="\_blank"}
 
 ---
 
 ## Lessons
 
-In this course we will be teaching you four programing concepts which can be applied to practically all modern programing languages. To teach these concepts we will be using the programming language [JavaScript](https://www.javascript.com/){:target="_blank"}.
+In this course we will be teaching you four programing concepts which can be applied to practically all modern programing languages. To teach these concepts we will be using the programming language [JavaScript](https://www.javascript.com/){:target="\_blank"}.
 
 JavaScript is the language of the web. It powers billions of websites that billions of people view everyday.
 
 The four lessons are:
 
-- [Variables](Lessons/1 Variables.md)
-- [Functions](Lessons/2 Functions.md)
-- [Conditionals](Lessons/3 Conditionals.md)
-- [Loops](Lessons/4 Loops.md)
+-   [Variables](Lessons/1 Variables.md)
+-   [Functions](Lessons/2 Functions.md)
+-   [Conditionals](Lessons/3 Conditionals.md)
+-   [Loops](Lessons/4 Loops.md)
 
 ---
 
@@ -120,4 +120,14 @@ The library used in the course is called `GAME.js`. The documentation can be fou
 <p align="center">
 <a title="Go4Tech - Javascript 4 Beginners" href="https://vimeo.com/301756824" target="_blank">[Watch Video]</a>
 
+</p>
+
+<p align="center">
+<img width="640" alt="Go4Tech" src="../img/IMAG1930.jpg">
+</p>
+<p align="center">
+<img width="640" alt="Go4Tech" src="../img/IMAG1930.jpg">
+</p>
+<p align="center">
+<img width="640" alt="Go4Tech" src="../img/IMAG1930.jpg">
 </p>
