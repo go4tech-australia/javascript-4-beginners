@@ -123,11 +123,11 @@ The library used in the course is called `GAME.js`. The documentation can be fou
 </p>
 
 <p align="center">
-<img width="640" alt="Go4Tech" src="../img/IMAG1930.jpg">
+<img width="640" alt="Go4Tech" src="https://github.com/go4tech-australia/javascript-4-beginners/raw/master/img/IMAG1930.jpg">
 </p>
 <p align="center">
-<img width="640" alt="Go4Tech" src="../img/IMAG1930.jpg">
+<img width="640" alt="Go4Tech" src="https://github.com/go4tech-australia/javascript-4-beginners/raw/master/img/Image from iOS (1).jpg">
 </p>
 <p align="center">
-<img width="640" alt="Go4Tech" src="../img/IMAG1930.jpg">
+<img width="640" alt="Go4Tech" src="https://github.com/go4tech-australia/javascript-4-beginners/raw/master/img/Image from iOS.jpg">
 </p>
